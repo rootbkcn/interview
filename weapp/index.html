@@ -1,0 +1,925 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>小程序 · 大前端面试小册-企业面试真题</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../browser/" />
+    
+    
+    <link rel="prev" href="../node/" />
+    
+
+    
+        <link rel="shortcut icon" href='../source/images/favicon.jpg' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../source/images/favicon.jpg' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../source/images/apple-touch-icon.jpg'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../source/images/apple-touch-icon.jpg">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../source/images/apple-touch-icon.jpg">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../HTML+CSS/">
+            
+                <a href="../HTML+CSS/">
+            
+                    
+                    HTML5+CSS3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../javascript/">
+            
+                <a href="../javascript/">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../vue/">
+            
+                <a href="../vue/">
+            
+                    
+                    Vue.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../react/">
+            
+                <a href="../react/">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../node/">
+            
+                <a href="../node/">
+            
+                    
+                    Node.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    小程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../browser/">
+            
+                <a href="../browser/">
+            
+                    
+                    浏览器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../network/">
+            
+                <a href="../network/">
+            
+                    
+                    网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../engineering/">
+            
+                <a href="../engineering/">
+            
+                    
+                    前端工程化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../performance/">
+            
+                <a href="../performance/">
+            
+                    
+                    性能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../security/">
+            
+                <a href="../security/">
+            
+                    
+                    安全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../handwritten/">
+            
+                <a href="../handwritten/">
+            
+                    
+                    手写代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../algorithm/">
+            
+                <a href="../algorithm/">
+            
+                    
+                    高频算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../others/">
+            
+                <a href="../others/">
+            
+                    
+                    综合
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >小程序</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x76EE;&#x5F55;"><b></b>&#x76EE;&#x5F55;</a></li><li><span class="title-icon "></span><a href="#&#x5C0F;&#x7A0B;&#x5E8F;&#x9762;&#x8BD5;&#x771F;&#x9898;"><b></b>&#x5C0F;&#x7A0B;&#x5E8F;&#x9762;&#x8BD5;&#x771F;&#x9898;</a></li><ul><ul><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;-&#x7B80;&#x5355;&#x63CF;&#x8FF0;&#x4E0B;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x76F8;&#x5173;&#x6587;&#x4EF6;&#x7C7B;&#x578B;"><b></b>&#x2605;&#x2605; &#x7B80;&#x5355;&#x63CF;&#x8FF0;&#x4E0B;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x76F8;&#x5173;&#x6587;&#x4EF6;&#x7C7B;&#x578B;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x539F;&#x7406;"><b></b>&#x2605;&#x2605;&#x2605;&#x2605; &#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x539F;&#x7406;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#x548C;vue&#x54EA;&#x91CC;&#x4E0D;&#x4E00;&#x6837;"><b></b>&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#x548C;vue&#x54EA;&#x91CC;&#x4E0D;&#x4E00;&#x6837;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;-wxss-&#x548C;-css-&#x6709;&#x54EA;&#x4E9B;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5730;&#x65B9;"><b></b>&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7684; wxss &#x548C; css &#x6709;&#x54EA;&#x4E9B;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5730;&#x65B9;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x95F4;&#x6709;&#x54EA;&#x4E9B;&#x4F20;&#x9012;&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;"><b></b>&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x95F4;&#x6709;&#x54EA;&#x4E9B;&#x4F20;&#x9012;&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x51FD;&#x6570;"><b></b>&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x51FD;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x5C01;&#x88C5;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x8BF7;&#x6C42;"><b></b>&#x2605;&#x2605;&#x2605; &#x600E;&#x4E48;&#x5C01;&#x88C5;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x8BF7;&#x6C42;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x63D0;&#x9AD8;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5E94;&#x7528;&#x901F;&#x5EA6;"><b></b>&#x2605;&#x2605;&#x2605; &#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x63D0;&#x9AD8;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5E94;&#x7528;&#x901F;&#x5EA6;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;-&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x4F18;&#x52A3;&#x52BF;"><b></b>&#x2605;&#x2605; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x4F18;&#x52A3;&#x52BF;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5F02;&#x6B65;&#x8BF7;&#x6C42;&#x95EE;&#x9898;"><b></b>&#x2605;&#x2605;&#x2605; &#x600E;&#x4E48;&#x89E3;&#x51B3;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5F02;&#x6B65;&#x8BF7;&#x6C42;&#x95EE;&#x9898;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x5173;&#x8054;&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;&#x5982;&#x4F55;&#x786E;&#x5B9A;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;&#x6027;"><b></b>&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x5173;&#x8054;&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;&#x5982;&#x4F55;&#x786E;&#x5B9A;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;&#x6027;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E0B;&#x62C9;&#x5237;&#x65B0;"><b></b>&#x2605;&#x2605;&#x2605; &#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E0B;&#x62C9;&#x5237;&#x65B0;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;-bindtap-&#x548C;-catchtap-&#x7684;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;"><b></b>&#x2605;&#x2605; bindtap &#x548C; catchtap &#x7684;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x7684;&#x4E1A;&#x52A1;&#x6D41;&#x7A0B;"><b></b>&#x2605;&#x2605;&#x2605;&#x2605; &#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x7684;&#x4E1A;&#x52A1;&#x6D41;&#x7A0B;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x4EC0;&#x4E48;&#x662F;&#x5C0F;&#x7A0B;&#x5E8F;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x6837;&#x5F0F;&#x9694;&#x79BB;&#x4ED6;&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x9694;&#x79BB;&#x6A21;&#x5F0F;&#xFF1F;"><b></b>&#x2605;&#x2605;&#x2605; &#x4EC0;&#x4E48;&#x662F;&#x5C0F;&#x7A0B;&#x5E8F;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x6837;&#x5F0F;&#x9694;&#x79BB;,&#x4ED6;&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x9694;&#x79BB;&#x6A21;&#x5F0F;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x5728;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x53C8;&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x8BA9;&#x56FE;&#x7247;&#x5BBD;&#x9AD8;&#x6BD4;&#x4F8B;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF1F;"><b></b>&#x2605;&#x2605;&#x2605; &#x5728;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x53C8;&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x8BA9;&#x56FE;&#x7247;&#x5BBD;&#x9AD8;&#x6BD4;&#x4F8B;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x4F20;&#x53C2;&#x7236;&#x5B50;&#xFF0C;&#x5B50;&#x7236;"><b></b>&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x4F20;&#x53C2;(&#x7236;&#x5B50;&#xFF0C;&#x5B50;&#x7236;)</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x751F;&#x547D;&#x5468;&#x671F;"><b></b>&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x751F;&#x547D;&#x5468;&#x671F;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x751F;&#x547D;&#x5468;&#x671F;"><b></b>&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x751F;&#x547D;&#x5468;&#x671F;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x600E;&#x4E48;&#x6837;&#x5B9E;&#x73B0;&#x8DEF;&#x7531;&#x4F20;&#x53C2;-"><b></b>&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x600E;&#x4E48;&#x6837;&#x5B9E;&#x73B0;&#x8DEF;&#x7531;&#x4F20;&#x53C2; </a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;switchtab-navigateto-redirectto&#x7684;&#x533A;&#x522B;"><b></b>&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;switchTab navigateTo redirectTo&#x7684;&#x533A;&#x522B;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;tabbar&#x5B9E;&#x73B0;&#x539F;&#x7406;"><b></b>&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;tabbar&#x5B9E;&#x73B0;&#x539F;&#x7406;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x6027;&#x80FD;&#x4E3A;&#x4EC0;&#x4E48;&#x90A3;&#x4E48;&#x597D;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x80FD;&#x505A;&#x5230;&#x5373;&#x7528;&#x5373;&#x8D70;&#x7684;&#x6548;&#x679C;"><b></b>&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x6027;&#x80FD;&#x4E3A;&#x4EC0;&#x4E48;&#x90A3;&#x4E48;&#x597D;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x80FD;&#x505A;&#x5230;&#x5373;&#x7528;&#x5373;&#x8D70;&#x7684;&#x6548;&#x679C;</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;-&#x5982;&#x4F55;&#x81EA;&#x5B9A;&#x4E49;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;navigationbar"><b></b>&#x2605;&#x2605; &#x5982;&#x4F55;&#x81EA;&#x5B9A;&#x4E49;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;navigationBar</a></li><li><span class="title-icon "></span><a href="#&#x2605;&#x2605;-&#x8BF4;&#x8BF4;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;wxif&#x548C;hidden&#x7684;&#x533A;&#x522B;"><b></b>&#x2605;&#x2605; &#x8BF4;&#x8BF4;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;wx:if&#x548C;hidden&#x7684;&#x533A;&#x522B;</a></li></ul></ul></ul></div><a href="#&#x76EE;&#x5F55;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x76EE;&#x5F55;"><a name="&#x76EE;&#x5F55;" class="anchor-navigation-ex-anchor" href="#&#x76EE;&#x5F55;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x76EE;&#x5F55;" class="plugin-anchor" href="#&#x76EE;&#x5F55;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x76EE;&#x5F55;</h1>
+<p><a href="#weapp-1">&#x2605;&#x2605; &#x7B80;&#x5355;&#x63CF;&#x8FF0;&#x4E0B;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x76F8;&#x5173;&#x6587;&#x4EF6;&#x7C7B;&#x578B;</a></p>
+<p><a href="#weapp-2">&#x2605;&#x2605;&#x2605;&#x2605; &#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x539F;&#x7406;</a></p>
+<p><a href="#weapp-3">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#x548C;vue&#x54EA;&#x91CC;&#x4E0D;&#x4E00;&#x6837;</a></p>
+<p><a href="#weapp-4">&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7684; wxss &#x548C; css &#x6709;&#x54EA;&#x4E9B;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5730;&#x65B9;</a></p>
+<p><a href="#weapp-5">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x95F4;&#x6709;&#x54EA;&#x4E9B;&#x4F20;&#x9012;&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;</a></p>
+<p><a href="#weapp-6">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x51FD;&#x6570;</a></p>
+<p><a href="#weapp-7">&#x2605;&#x2605;&#x2605; &#x600E;&#x4E48;&#x5C01;&#x88C5;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x8BF7;&#x6C42;</a></p>
+<p><a href="#weapp-8">&#x2605;&#x2605;&#x2605; &#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x63D0;&#x9AD8;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5E94;&#x7528;&#x901F;&#x5EA6;</a></p>
+<p><a href="#weapp-9">&#x2605;&#x2605; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x4F18;&#x52A3;&#x52BF;</a></p>
+<p><a href="#weapp-10">&#x2605;&#x2605;&#x2605; &#x600E;&#x4E48;&#x89E3;&#x51B3;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5F02;&#x6B65;&#x8BF7;&#x6C42;&#x95EE;&#x9898;</a></p>
+<p><a href="#weapp-11">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x5173;&#x8054;&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;&#x5982;&#x4F55;&#x786E;&#x5B9A;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;&#x6027;</a></p>
+<p><a href="#weapp-12">&#x2605;&#x2605;&#x2605; &#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E0B;&#x62C9;&#x5237;&#x65B0;</a></p>
+<p><a href="#weapp-13">&#x2605;&#x2605; bindtap &#x548C; catchtap &#x7684;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;</a></p>
+<p><a href="#weapp-14">&#x2605;&#x2605;&#x2605;&#x2605; &#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x7684;&#x4E1A;&#x52A1;&#x6D41;&#x7A0B;</a></p>
+<p><a href="#weapp-15">&#x2605;&#x2605;&#x2605; &#x4EC0;&#x4E48;&#x662F;&#x5C0F;&#x7A0B;&#x5E8F;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x6837;&#x5F0F;&#x9694;&#x79BB;,&#x4ED6;&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x9694;&#x79BB;&#x6A21;&#x5F0F;&#xFF1F;</a></p>
+<p><a href="#weapp-16">&#x2605;&#x2605;&#x2605; &#x5728;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x53C8;&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x8BA9;&#x56FE;&#x7247;&#x5BBD;&#x9AD8;&#x6BD4;&#x4F8B;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF1F;</a></p>
+<p><a href="#weapp-17">&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x4F20;&#x53C2;(&#x7236;&#x5B50;&#xFF0C;&#x5B50;&#x7236;)</a></p>
+<p><a href="#weapp-18">&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x751F;&#x547D;&#x5468;&#x671F;</a></p>
+<p><a href="#weapp-19">&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x751F;&#x547D;&#x5468;&#x671F;</a></p>
+<p><a href="#weapp-20">&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x600E;&#x4E48;&#x6837;&#x5B9E;&#x73B0;&#x8DEF;&#x7531;&#x4F20;&#x53C2; </a> </p>
+<p><a href="#weapp-21">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;switchTab navigateTo redirectTo&#x7684;&#x533A;&#x522B;</a></p>
+<p><a href="#weapp-22">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;tabbar&#x5B9E;&#x73B0;&#x539F;&#x7406;</a></p>
+<p><a href="#weapp-23">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x6027;&#x80FD;&#x4E3A;&#x4EC0;&#x4E48;&#x90A3;&#x4E48;&#x597D;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x80FD;&#x505A;&#x5230;&#x5373;&#x7528;&#x5373;&#x8D70;&#x7684;&#x6548;&#x679C;</a></p>
+<p><a href="#weapp-24">&#x2605;&#x2605; &#x5982;&#x4F55;&#x81EA;&#x5B9A;&#x4E49;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;navigationBar</a></p>
+<p><a href="#weapp-25">&#x2605;&#x2605; &#x8BF4;&#x8BF4;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;wx:if&#x548C;hidden&#x7684;&#x533A;&#x522B;</a></p>
+<h1 id="&#x5C0F;&#x7A0B;&#x5E8F;&#x9762;&#x8BD5;&#x771F;&#x9898;"><a name="&#x5C0F;&#x7A0B;&#x5E8F;&#x9762;&#x8BD5;&#x771F;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x5C0F;&#x7A0B;&#x5E8F;&#x9762;&#x8BD5;&#x771F;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x5C0F;&#x7A0B;&#x5E8F;&#x9762;&#x8BD5;&#x771F;&#x9898;" class="plugin-anchor" href="#&#x5C0F;&#x7A0B;&#x5E8F;&#x9762;&#x8BD5;&#x771F;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5C0F;&#x7A0B;&#x5E8F;&#x9762;&#x8BD5;&#x771F;&#x9898;</h1>
+<h3 id="&#x2605;&#x2605;-&#x7B80;&#x5355;&#x63CF;&#x8FF0;&#x4E0B;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x76F8;&#x5173;&#x6587;&#x4EF6;&#x7C7B;&#x578B;"><a name="&#x2605;&#x2605;-&#x7B80;&#x5355;&#x63CF;&#x8FF0;&#x4E0B;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x76F8;&#x5173;&#x6587;&#x4EF6;&#x7C7B;&#x578B;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;-&#x7B80;&#x5355;&#x63CF;&#x8FF0;&#x4E0B;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x76F8;&#x5173;&#x6587;&#x4EF6;&#x7C7B;&#x578B;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;-&#x7B80;&#x5355;&#x63CF;&#x8FF0;&#x4E0B;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x76F8;&#x5173;&#x6587;&#x4EF6;&#x7C7B;&#x578B;" class="plugin-anchor" href="#&#x2605;&#x2605;-&#x7B80;&#x5355;&#x63CF;&#x8FF0;&#x4E0B;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x76F8;&#x5173;&#x6587;&#x4EF6;&#x7C7B;&#x578B;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-1">&#x2605;&#x2605; &#x7B80;&#x5355;&#x63CF;&#x8FF0;&#x4E0B;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x76F8;&#x5173;&#x6587;&#x4EF6;&#x7C7B;&#x578B;</p></h3>
+<blockquote>
+<p>&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x9879;&#x76EE;&#x7ED3;&#x6784;&#x4E3B;&#x8981;&#x6709;&#x56DB;&#x4E2A;&#x6587;&#x4EF6;&#x7C7B;&#x578B;</p>
+</blockquote>
+<ul>
+<li><code>WXML</code>&#xFF08;WeiXin Markup Language&#xFF09;&#x662F;&#x6846;&#x67B6;&#x8BBE;&#x8BA1;&#x7684;&#x4E00;&#x5957;&#x6807;&#x7B7E;&#x8BED;&#x8A00;&#xFF0C;&#x7ED3;&#x5408;&#x57FA;&#x7840;&#x7EC4;&#x4EF6;&#x3001;&#x4E8B;&#x4EF6;&#x7CFB;&#x7EDF;&#xFF0C;&#x53EF;&#x4EE5;&#x6784;&#x5EFA;&#x51FA;&#x9875;&#x9762;&#x7684;&#x7ED3;&#x6784;&#x3002;&#x5185;&#x90E8;&#x4E3B;&#x8981;&#x662F;&#x5FAE;&#x4FE1;&#x81EA;&#x5DF1;&#x5B9A;&#x4E49;&#x7684;&#x4E00;&#x5957;&#x7EC4;&#x4EF6;</li>
+<li><code>WXSS</code> (WeiXin Style Sheets)&#x662F;&#x4E00;&#x5957;&#x6837;&#x5F0F;&#x8BED;&#x8A00;&#xFF0C;&#x7528;&#x4E8E;&#x63CF;&#x8FF0; <code>WXML</code> &#x7684;&#x7EC4;&#x4EF6;&#x6837;&#x5F0F;</li>
+<li><code>js</code> &#x903B;&#x8F91;&#x5904;&#x7406;&#xFF0C;&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;</li>
+<li><code>json</code> &#x5C0F;&#x7A0B;&#x5E8F;&#x8BBE;&#x7F6E;&#xFF0C;&#x5982;&#x9875;&#x9762;&#x6CE8;&#x518C;&#xFF0C;&#x9875;&#x9762;&#x6807;&#x9898;&#x53CA;<code>tabBar</code></li>
+</ul>
+<blockquote>
+<p>&#x4E3B;&#x8981;&#x6587;&#x4EF6;</p>
+</blockquote>
+<ul>
+<li><code>app.json</code> &#x5FC5;&#x987B;&#x8981;&#x6709;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x9879;&#x76EE;&#x65E0;&#x6CD5;&#x8FD0;&#x884C;&#xFF0C;&#x56E0;&#x4E3A;&#x5FAE;&#x4FE1;&#x6846;&#x67B6;&#x628A;&#x8FD9;&#x4E2A;&#x4F5C;&#x4E3A;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5165;&#x53E3;&#xFF0C;&#x6574;&#x4E2A;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5168;&#x5C40;&#x914D;&#x7F6E;&#x3002;&#x5305;&#x62EC;&#x9875;&#x9762;&#x6CE8;&#x518C;&#xFF0C;&#x7F51;&#x7EDC;&#x8BBE;&#x7F6E;&#xFF0C;&#x4EE5;&#x53CA;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684; <code>window</code> &#x80CC;&#x666F;&#x8272;&#xFF0C;&#x914D;&#x7F6E;&#x5BFC;&#x822A;&#x6761;&#x6837;&#x5F0F;&#xFF0C;&#x914D;&#x7F6E;&#x9ED8;&#x8BA4;&#x6807;&#x9898;</li>
+<li><code>app.js</code> &#x5FC5;&#x987B;&#x8981;&#x6709;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x6CA1;&#x6709;&#x4E5F;&#x662F;&#x4F1A;&#x62A5;&#x9519;&#xFF01;&#x4F46;&#x662F;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x521B;&#x5EFA;&#x4E00;&#x4E0B;&#x5C31;&#x884C; &#x4EC0;&#x4E48;&#x90FD;&#x4E0D;&#x9700;&#x8981;&#x5199;&#x4EE5;&#x540E;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x4E2D;&#x76D1;&#x542C;&#x5E76;&#x5904;&#x7406;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x51FD;&#x6570;&#x3001;&#x58F0;&#x660E;&#x5168;&#x5C40;&#x53D8;&#x91CF;</li>
+<li><code>app.wxss</code> &#x53EF;&#x9009;</li>
+</ul>
+<h3 id="&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x539F;&#x7406;"><a name="&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x539F;&#x7406;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x539F;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x539F;&#x7406;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x539F;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-2">&#x2605;&#x2605;&#x2605;&#x2605; &#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x539F;&#x7406;</p></h3>
+<blockquote>
+<p>&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x91C7;&#x7528; <code>JavaScript</code>&#x3001;<code>WXML</code>&#x3001;<code>WXSS</code> &#x4E09;&#x79CD;&#x6280;&#x672F;&#x8FDB;&#x884C;&#x5F00;&#x53D1;,&#x672C;&#x8D28;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x5355;&#x9875;&#x9762;&#x5E94;&#x7528;&#xFF0C;&#x6240;&#x6709;&#x7684;&#x9875;&#x9762;&#x6E32;&#x67D3;&#x548C;&#x4E8B;&#x4EF6;&#x5904;&#x7406;&#xFF0C;&#x90FD;&#x5728;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x5185;&#x8FDB;&#x884C;&#xFF0C;&#x4F46;&#x53C8;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5FAE;&#x4FE1;&#x5BA2;&#x6237;&#x7AEF;&#x8C03;&#x7528;&#x539F;&#x751F;&#x7684;&#x5404;&#x79CD;&#x63A5;&#x53E3;&#x5FAE;&#x4FE1;&#x7684;&#x67B6;&#x6784;&#xFF0C;&#x662F;&#x6570;&#x636E;&#x9A71;&#x52A8;&#x7684;&#x67B6;&#x6784;&#x6A21;&#x5F0F;&#xFF0C;&#x5B83;&#x7684; <code>UI</code> &#x548C;&#x6570;&#x636E;&#x662F;&#x5206;&#x79BB;&#x7684;&#xFF0C;&#x6240;&#x6709;&#x7684;&#x9875;&#x9762;&#x66F4;&#x65B0;&#xFF0C;&#x90FD;&#x9700;&#x8981;&#x901A;&#x8FC7;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x66F4;&#x6539;&#x6765;&#x5B9E;&#x73B0;
+&#x5C0F;&#x7A0B;&#x5E8F;&#x5206;&#x4E3A;&#x4E24;&#x4E2A;&#x90E8;&#x5206; <code>webview</code> &#x548C; <code>appService</code> &#x3002;&#x5176;&#x4E2D; <code>webview</code> &#x4E3B;&#x8981;&#x7528;&#x6765;&#x5C55;&#x73B0; <code>UI</code> &#xFF0C;<code>appService</code> &#x6709;&#x6765;&#x5904;&#x7406;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x3001;&#x6570;&#x636E;&#x53CA;&#x63A5;&#x53E3;&#x8C03;&#x7528;&#x3002;&#x5B83;&#x4EEC;&#x5728;&#x4E24;&#x4E2A;&#x8FDB;&#x7A0B;&#x4E2D;&#x8FD0;&#x884C;&#xFF0C;&#x901A;&#x8FC7;&#x7CFB;&#x7EDF;&#x5C42; <code>JSBridge</code> &#x5B9E;&#x73B0;&#x901A;&#x4FE1;&#xFF0C;&#x5B9E;&#x73B0; <code>UI</code> &#x7684;&#x6E32;&#x67D3;&#x3001;&#x4E8B;&#x4EF6;&#x7684;&#x5904;&#x7406;</p>
+</blockquote>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#x548C;vue&#x54EA;&#x91CC;&#x4E0D;&#x4E00;&#x6837;"><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#x548C;vue&#x54EA;&#x91CC;&#x4E0D;&#x4E00;&#x6837;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#x548C;vue&#x54EA;&#x91CC;&#x4E0D;&#x4E00;&#x6837;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#x548C;vue&#x54EA;&#x91CC;&#x4E0D;&#x4E00;&#x6837;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#x548C;vue&#x54EA;&#x91CC;&#x4E0D;&#x4E00;&#x6837;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-3">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#x548C;vue&#x54EA;&#x91CC;&#x4E0D;&#x4E00;&#x6837;</p></h3>
+<p>&#x5C0F;&#x7A0B;&#x5E8F;&#x76F4;&#x63A5; <code>this.data</code> &#x7684;&#x5C5E;&#x6027;&#x662F;&#x4E0D;&#x53EF;&#x4EE5;&#x540C;&#x6B65;&#x5230;&#x89C6;&#x56FE;&#x7684;&#xFF0C;&#x5FC5;&#x987B;&#x8C03;&#x7528;&#xFF1A;</p>
+<blockquote>
+<p>&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x5728;&#x521D;&#x59CB;&#x5316;&#x4E4B;&#x540E;&#xFF0C;&#x518D;&#x5BF9;&#x539F;&#x6765;&#x7684;&#x6570;&#x636E;&#x5BF9;&#x8C61;&#x8FDB;&#x884C;&#x4EFB;&#x4F55;&#x66F4;&#x6539;&#xFF0C;&#x90FD;&#x59CB;&#x7EC8;&#x4E0D;&#x4F1A;&#x751F;&#x6548;&#xFF01;&#x53EA;&#x80FD;&#x624B;&#x52A8;&#x8C03;&#x7528;setData&#x63A5;&#x53E3;&#x660E;&#x786E;&#x6307;&#x660E;&#x540C;&#x6B65;&#x54EA;&#x4E9B;&#x952E;/&#x503C;&#x81F3;&#x89C6;&#x56FE;&#x5C42;&#x624D;&#x4F1A;&#x89E6;&#x53D1;&#x66F4;&#x65B0;
+vue&#x5219;&#x662F;&#x5BF9;&#x6570;&#x636E;&#x5BF9;&#x8C61;&#x8FDB;&#x884C;&#x4E86;&#x76D1;&#x542C;&#xFF0C;&#x53EA;&#x8981;&#x6709;&#x66F4;&#x6539;&#x5C31;&#x53EF;&#x4EE5;&#x5E76;&#x4E14;&#x4F1A;&#x7ACB;&#x5373;&#x89E6;&#x53D1;&#x89C6;&#x56FE;&#x5C42;&#x7684;&#x66F4;&#x65B0;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">this</span>.setData({
+    <span class="hljs-comment">// &#x8FD9;&#x91CC;&#x8BBE;&#x7F6E;</span>
+})
+</code></pre>
+<p>&#x8BBE;&#x7F6E;&#x503C;</p>
+<ul>
+<li>&#x5728;vue&#x4E2D;,&#x53EA;&#x9700;&#x8981;&#x518D;&#x8868;&#x5355;&#x5143;&#x7D20;&#x4E0A;&#x52A0;&#x4E0A;v-model,&#x7136;&#x540E;&#x518D;&#x7ED1;&#x5B9A;data&#x4E2D;&#x5BF9;&#x5E94;&#x7684;&#x4E00;&#x4E2A;&#x503C;&#xFF0C;&#x5F53;&#x8868;&#x5355;&#x5143;&#x7D20;&#x5185;&#x5BB9;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x65F6;&#xFF0C;data&#x4E2D;&#x5BF9;&#x5E94;&#x7684;&#x503C;&#x4E5F;&#x4F1A;&#x76F8;&#x5E94;&#x6539;&#x53D8;&#xFF0C;&#x8FD9;&#x662F;vue&#x975E;&#x5E38;nice&#x7684;&#x4E00;&#x70B9;&#x3002;
+```js<div id="app">  
+<input v-model="reason" placeholder="&#x586B;&#x5199;&#x7406;&#x7531;" class="reason">  
+</div>  
+
+</li>
+</ul>
+</blockquote>
+<p>  new Vue({<br>    el: &apos;#app&apos;,<br>    data: {<br>    reason:&apos;&apos;<br>    }<br>  })</p>
+<pre><code>- &#x4F46;&#x662F;&#x5728;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#xFF0C;&#x5374;&#x6CA1;&#x6709;&#x8FD9;&#x4E2A;&#x529F;&#x80FD;&#x3002;&#x90A3;&#x600E;&#x4E48;&#x529E;&#x5462;&#xFF1F;&#x5F53;&#x8868;&#x5355;&#x5185;&#x5BB9;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x65F6;&#xFF0C;&#x4F1A;&#x89E6;&#x53D1;&#x8868;&#x5355;&#x5143;&#x7D20;&#x4E0A;&#x7ED1;&#x5B9A;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x8BE5;&#x65B9;&#x6CD5;&#x4E2D;&#xFF0C;&#x901A;&#x8FC7;this.setData({key:value})&#x6765;&#x5C06;&#x8868;&#x5355;&#x4E0A;&#x7684;&#x503C;&#x8D4B;&#x503C;&#x7ED9;data&#x4E2D;&#x7684;&#x5BF9;&#x5E94;&#x503C;&#x3002;&#x4E0B;&#x9762;&#x662F;&#x4EE3;&#x7801;&#xFF0C;&#x53EF;&#x4EE5;&#x611F;&#x53D7;&#x4E00;&#x4E0B;:
+```js
+&lt;input bindinput=&quot;bindReason&quot; placeholder=&quot;&#x586B;&#x5199;&#x7406;&#x7531;&quot; class=&apos;reason&apos; value=&apos;&apos; name=&quot;reason&quot; /&gt;  
+  Page({  
+  data:{  
+  reason:&apos;&apos;  
+  },  
+  bindReason(e) {  
+  this.setData({  
+  reason: e.detail.value  
+  })  
+  }  
+  })
+</code></pre><ul>
+<li><p>&#x5F53;&#x9875;&#x9762;&#x8868;&#x5355;&#x5143;&#x7D20;&#x5F88;&#x591A;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x66F4;&#x6539;&#x503C;&#x5C31;&#x662F;&#x4E00;&#x4EF6;&#x4F53;&#x529B;&#x6D3B;&#x4E86;&#x3002;&#x548C;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E00;&#x6BD4;&#x8F83;&#xFF0C;vue&#x7684;v-model&#x7B80;&#x76F4;&#x723D;&#x7684;&#x4E0D;&#x8981;&#x4E0D;&#x8981;&#x7684;&#x3002;</p>
+<blockquote>
+<p>&#x53D6;&#x503C;</p>
+</blockquote>
+</li>
+<li><p>vue&#x4E2D;&#xFF0C;&#x901A;&#x8FC7;this.reason&#x53D6;&#x503C;</p>
+</li>
+<li><p>&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#xFF0C;&#x901A;&#x8FC7;this.data.reason&#x53D6;&#x503C;</p>
+</li>
+</ul>
+<h3 id="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;-wxss-&#x548C;-css-&#x6709;&#x54EA;&#x4E9B;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5730;&#x65B9;"><a name="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;-wxss-&#x548C;-css-&#x6709;&#x54EA;&#x4E9B;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5730;&#x65B9;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;-wxss-&#x548C;-css-&#x6709;&#x54EA;&#x4E9B;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5730;&#x65B9;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;-wxss-&#x548C;-css-&#x6709;&#x54EA;&#x4E9B;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5730;&#x65B9;" class="plugin-anchor" href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;-wxss-&#x548C;-css-&#x6709;&#x54EA;&#x4E9B;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5730;&#x65B9;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-4">&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7684; wxss &#x548C; css &#x6709;&#x54EA;&#x4E9B;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5730;&#x65B9;</p></h3>
+<blockquote>
+<p><code>WXSS</code> &#x548C; <code>CSS</code> &#x7C7B;&#x4F3C;&#xFF0C;&#x4E0D;&#x8FC7;&#x5728; <code>CSS</code> &#x7684;&#x57FA;&#x7840;&#x4E0A;&#x505A;&#x4E86;&#x4E00;&#x4E9B;&#x8865;&#x5145;&#x548C;&#x4FEE;&#x6539;</p>
+</blockquote>
+<ul>
+<li>&#x5C3A;&#x5BF8;&#x5355;&#x4F4D; <code>rpx</code></li>
+</ul>
+<p><code>rpx</code> &#x662F;&#x54CD;&#x5E94;&#x5F0F;&#x50CF;&#x7D20;,&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x5C4F;&#x5E55;&#x5BBD;&#x5EA6;&#x8FDB;&#x884C;&#x81EA;&#x9002;&#x5E94;&#x3002;&#x89C4;&#x5B9A;&#x5C4F;&#x5E55;&#x5BBD;&#x4E3A; <code>750rpx</code>&#x3002;&#x5982;&#x5728; <code>iPhone6</code> &#x4E0A;&#xFF0C;&#x5C4F;&#x5E55;&#x5BBD;&#x5EA6;&#x4E3A; <code>375px</code>&#xFF0C;&#x5171;&#x6709; <code>750</code> &#x4E2A;&#x7269;&#x7406;&#x50CF;&#x7D20;&#xFF0C;&#x5219; <code>750rpx = 375px = 750</code> &#x7269;&#x7406;&#x50CF;&#x7D20;</p>
+<ul>
+<li>&#x4F7F;&#x7528; <code>@import</code> &#x6807;&#x8BC6;&#x7B26;&#x6765;&#x5BFC;&#x5165;&#x5916;&#x8054;&#x6837;&#x5F0F;&#x3002;<code>@import</code> &#x540E;&#x8DDF;&#x9700;&#x8981;&#x5BFC;&#x5165;&#x7684;&#x5916;&#x8054;&#x6837;&#x5F0F;&#x8868;&#x7684;&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;&#xFF0C;&#x7528;;&#x8868;&#x793A;&#x8BED;&#x53E5;&#x7ED3;&#x675F;</li>
+</ul>
+<pre><code class="lang-css"><span class="hljs-comment">/** index.wxss **/</span>
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&apos;./base.wxss&apos;</span>;
+
+<span class="hljs-selector-class">.container</span>{
+    <span class="hljs-attribute">color</span>: red;
+}
+</code></pre>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x95F4;&#x6709;&#x54EA;&#x4E9B;&#x4F20;&#x9012;&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;"><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x95F4;&#x6709;&#x54EA;&#x4E9B;&#x4F20;&#x9012;&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x95F4;&#x6709;&#x54EA;&#x4E9B;&#x4F20;&#x9012;&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x95F4;&#x6709;&#x54EA;&#x4E9B;&#x4F20;&#x9012;&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x95F4;&#x6709;&#x54EA;&#x4E9B;&#x4F20;&#x9012;&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-5">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x95F4;&#x6709;&#x54EA;&#x4E9B;&#x4F20;&#x9012;&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;</p></h3>
+<ul>
+<li>&#x4F7F;&#x7528;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#x5B9E;&#x73B0;&#x6570;&#x636E;&#x4F20;&#x9012;</li>
+</ul>
+<p>&#x5728; <code>app.js</code> &#x6587;&#x4EF6;&#x4E2D;&#x5B9A;&#x4E49;&#x5168;&#x5C40;&#x53D8;&#x91CF; <code>globalData</code>&#xFF0C; &#x5C06;&#x9700;&#x8981;&#x5B58;&#x50A8;&#x7684;&#x4FE1;&#x606F;&#x5B58;&#x653E;&#x5728;&#x91CC;&#x9762;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// app.js</span>
+
+App({
+     <span class="hljs-comment">// &#x5168;&#x5C40;&#x53D8;&#x91CF;</span>
+  globalData: {
+    userInfo: <span class="hljs-literal">null</span>
+  }
+})
+</code></pre>
+<p>&#x4F7F;&#x7528;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x76F4;&#x63A5;&#x4F7F;&#x7528; <code>getApp()</code> &#x62FF;&#x5230;&#x5B58;&#x50A8;&#x7684;&#x4FE1;&#x606F;</p>
+<ul>
+<li>&#x4F7F;&#x7528; <code>wx.navigateTo</code> &#x4E0E; <code>wx.redirectTo</code> &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;&#x90E8;&#x5206;&#x6570;&#x636E;&#x653E;&#x5728; <code>url</code> &#x91CC;&#x9762;&#xFF0C;&#x5E76;&#x5728;&#x65B0;&#x9875;&#x9762; <code>onLoad</code> &#x7684;&#x65F6;&#x5019;&#x521D;&#x59CB;&#x5316;</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-comment">//pageA.js</span>
+
+<span class="hljs-comment">// Navigate</span>
+wx.navigateTo({
+  url: <span class="hljs-string">&apos;../pageD/pageD?name=raymond&amp;gender=male&apos;</span>,
+})
+
+<span class="hljs-comment">// Redirect</span>
+wx.redirectTo({
+  url: <span class="hljs-string">&apos;../pageD/pageD?name=raymond&amp;gender=male&apos;</span>,
+})
+
+
+<span class="hljs-comment">// pageB.js</span>
+...
+Page({
+  onLoad: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">option</span>)</span>{<span class="hljs-comment">//option&#x91CC;&#x9762;&#x53EF;&#x4EE5;&#x62FF;&#x5230;&#x8DEF;&#x7531;&#x53C2;&#x6570;</span>
+    <span class="hljs-built_in">console</span>.log(option.name + <span class="hljs-string">&apos;is&apos;</span> + option.gender)
+    <span class="hljs-keyword">this</span>.setData({
+      option: option
+    })
+  }
+})
+</code></pre>
+<p>&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x95EE;&#x9898;&#xFF1A;</p>
+<p><code>wx.navigateTo</code> &#x548C; <code>wx.redirectTo</code> &#x4E0D;&#x5141;&#x8BB8;&#x8DF3;&#x8F6C;&#x5230; <code>tab</code> &#x6240;&#x5305;&#x542B;&#x7684;&#x9875;&#x9762;</p>
+<p><code>onLoad</code> &#x53EA;&#x6267;&#x884C;&#x4E00;&#x6B21;</p>
+<ul>
+<li>&#x4F7F;&#x7528;&#x672C;&#x5730;&#x7F13;&#x5B58; <code>Storage</code> &#x76F8;&#x5173;</li>
+</ul>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x51FD;&#x6570;"><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x51FD;&#x6570;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x51FD;&#x6570;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-6">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x51FD;&#x6570;</p></h3>
+<ul>
+<li><code>onLoad</code> &#x9875;&#x9762;&#x52A0;&#x8F7D;&#x65F6;&#x89E6;&#x53D1;&#x3002;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x53EA;&#x4F1A;&#x8C03;&#x7528;&#x4E00;&#x6B21;&#xFF0C;&#x53EF;&#x4EE5;&#x5728; <code>onLoad</code> &#x7684;&#x53C2;&#x6570;&#x4E2D;&#x83B7;&#x53D6;&#x6253;&#x5F00;&#x5F53;&#x524D;&#x9875;&#x9762;&#x8DEF;&#x5F84;&#x4E2D;&#x7684;&#x53C2;&#x6570;,&#x5EFA;&#x8BAE;&#x5728;&#x6B64;&#x8C03;&#x63A5;&#x53E3;</li>
+<li><code>onShow()</code> &#x9875;&#x9762;&#x663E;&#x793A;/&#x5207;&#x5165;&#x524D;&#x53F0;&#x65F6;&#x89E6;&#x53D1;&#xFF0C;&#x4E0D;&#x5EFA;&#x8BAE;&#x5728;&#x6B64;&#x8C03;&#x63A5;&#x53E3;</li>
+<li><code>onReady()</code> &#x9875;&#x9762;&#x521D;&#x6B21;&#x6E32;&#x67D3;&#x5B8C;&#x6210;&#x65F6;&#x89E6;&#x53D1;&#x3002;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x53EA;&#x4F1A;&#x8C03;&#x7528;&#x4E00;&#x6B21;&#xFF0C;&#x4EE3;&#x8868;&#x9875;&#x9762;&#x5DF2;&#x7ECF;&#x51C6;&#x5907;&#x59A5;&#x5F53;&#xFF0C;&#x53EF;&#x4EE5;&#x548C;&#x89C6;&#x56FE;&#x5C42;&#x8FDB;&#x884C;&#x4EA4;&#x4E92;</li>
+<li><code>onHide()</code> &#x9875;&#x9762;&#x9690;&#x85CF;/&#x5207;&#x5165;&#x540E;&#x53F0;&#x65F6;&#x89E6;&#x53D1;&#x3002; &#x5982; <code>navigateTo</code> &#x6216;&#x5E95;&#x90E8; <code>tab</code> &#x5207;&#x6362;&#x5230;&#x5176;&#x4ED6;&#x9875;&#x9762;&#xFF0C;&#x5C0F;&#x7A0B;&#x5E8F;&#x5207;&#x5165;&#x540E;&#x53F0;&#x7B49;</li>
+<li><code>onUnload()</code> &#x9875;&#x9762;&#x5378;&#x8F7D;&#x65F6;&#x89E6;&#x53D1;&#x3002;&#x5982; <code>redirectTo</code> &#x6216; <code>navigateBack</code> &#x5230;&#x5176;&#x4ED6;&#x9875;&#x9762;&#x65F6;</li>
+</ul>
+<p>&#x8BE6;&#x89C1; <a href="https://link.zhihu.com/?target=https%3A//developers.weixin.qq.com/miniprogram/dev/framework/app-service/page.html%23%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0" target="_blank">&#x751F;&#x547D;&#x5468;&#x671F;&#x56DE;&#x8C03;&#x51FD;&#x6570;</a></p>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x5C01;&#x88C5;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x8BF7;&#x6C42;"><a name="&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x5C01;&#x88C5;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x8BF7;&#x6C42;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x5C01;&#x88C5;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x8BF7;&#x6C42;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x5C01;&#x88C5;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x8BF7;&#x6C42;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x5C01;&#x88C5;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x8BF7;&#x6C42;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-7">&#x2605;&#x2605;&#x2605; &#x600E;&#x4E48;&#x5C01;&#x88C5;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x8BF7;&#x6C42;</p></h3>
+<p>&#x53C2;&#x8003; <a href="https://link.zhihu.com/?target=https%3A//segmentfault.com/a/1190000014789969" target="_blank">&#x8FD9;&#x91CC;</a></p>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x63D0;&#x9AD8;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5E94;&#x7528;&#x901F;&#x5EA6;"><a name="&#x2605;&#x2605;&#x2605;-&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x63D0;&#x9AD8;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5E94;&#x7528;&#x901F;&#x5EA6;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x63D0;&#x9AD8;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5E94;&#x7528;&#x901F;&#x5EA6;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x63D0;&#x9AD8;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5E94;&#x7528;&#x901F;&#x5EA6;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x63D0;&#x9AD8;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5E94;&#x7528;&#x901F;&#x5EA6;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-8">&#x2605;&#x2605;&#x2605; &#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x63D0;&#x9AD8;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5E94;&#x7528;&#x901F;&#x5EA6;</p></h3>
+<p>1&#x3001;&#x63D0;&#x9AD8;&#x9875;&#x9762;&#x52A0;&#x8F7D;&#x901F;&#x5EA6;</p>
+<p>2&#x3001;&#x7528;&#x6237;&#x884C;&#x4E3A;&#x9884;&#x6D4B;</p>
+<p>3&#x3001;&#x51CF;&#x5C11;&#x9ED8;&#x8BA4; <code>data</code> &#x7684;&#x5927;&#x5C0F;</p>
+<p>4&#x3001;&#x7EC4;&#x4EF6;&#x5316;&#x65B9;&#x6848;</p>
+<h3 id="&#x2605;&#x2605;-&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x4F18;&#x52A3;&#x52BF;"><a name="&#x2605;&#x2605;-&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x4F18;&#x52A3;&#x52BF;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;-&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x4F18;&#x52A3;&#x52BF;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;-&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x4F18;&#x52A3;&#x52BF;" class="plugin-anchor" href="#&#x2605;&#x2605;-&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x4F18;&#x52A3;&#x52BF;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-9">&#x2605;&#x2605; &#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x4F18;&#x52A3;&#x52BF;</p></h3>
+<blockquote>
+<p>&#x4F18;&#x52BF;</p>
+</blockquote>
+<ul>
+<li>&#x5373;&#x7528;&#x5373;&#x8D70;&#xFF0C;&#x4E0D;&#x7528;&#x5B89;&#x88C5;&#xFF0C;&#x7701;&#x6D41;&#x91CF;&#xFF0C;&#x7701;&#x5B89;&#x88C5;&#x65F6;&#x95F4;&#xFF0C;&#x4E0D;&#x5360;&#x7528;&#x684C;&#x9762;</li>
+<li>&#x4F9D;&#x6258;&#x5FAE;&#x4FE1;&#x6D41;&#x91CF;&#xFF0C;&#x5929;&#x751F;&#x63A8;&#x5E7F;&#x4F20;&#x64AD;&#x4F18;&#x52BF;</li>
+<li>&#x5F00;&#x53D1;&#x6210;&#x672C;&#x6BD4; <code>App</code> &#x4F4E;</li>
+</ul>
+<blockquote>
+<p>&#x7F3A;&#x70B9;</p>
+</blockquote>
+<ul>
+<li>&#x7528;&#x6237;&#x7559;&#x5B58;&#xFF0C;&#x5373;&#x7528;&#x5373;&#x8D70;&#x662F;&#x4F18;&#x52BF;&#xFF0C;&#x4E5F;&#x5B58;&#x5728;&#x4E00;&#x4E9B;&#x95EE;&#x9898;</li>
+<li>&#x5165;&#x53E3;&#x76F8;&#x5BF9;&#x4F20;&#x7EDF; <code>App</code> &#x8981;&#x6DF1;&#x5F88;&#x591A;</li>
+<li>&#x9650;&#x5236;&#x8F83;&#x591A;,&#x9875;&#x9762;&#x5927;&#x5C0F;&#x4E0D;&#x80FD;&#x8D85;&#x8FC7;2M&#x3002;&#x4E0D;&#x80FD;&#x6253;&#x5F00;&#x8D85;&#x8FC7;10&#x4E2A;&#x5C42;&#x7EA7;&#x7684;&#x9875;&#x9762;</li>
+</ul>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5F02;&#x6B65;&#x8BF7;&#x6C42;&#x95EE;&#x9898;"><a name="&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5F02;&#x6B65;&#x8BF7;&#x6C42;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5F02;&#x6B65;&#x8BF7;&#x6C42;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5F02;&#x6B65;&#x8BF7;&#x6C42;&#x95EE;&#x9898;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5F02;&#x6B65;&#x8BF7;&#x6C42;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-10">&#x2605;&#x2605;&#x2605; &#x600E;&#x4E48;&#x89E3;&#x51B3;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x5F02;&#x6B65;&#x8BF7;&#x6C42;&#x95EE;&#x9898;</p></h3>
+<blockquote>
+<p>&#x5C0F;&#x7A0B;&#x5E8F;&#x652F;&#x6301;&#x5927;&#x90E8;&#x5206; <code>ES6</code> &#x8BED;&#x6CD5;</p>
+</blockquote>
+<ul>
+<li>&#x5728;&#x8FD4;&#x56DE;&#x6210;&#x529F;&#x7684;&#x56DE;&#x8C03;&#x91CC;&#x9762;&#x5904;&#x7406;&#x903B;&#x8F91;</li>
+<li><code>Promise</code> &#x5F02;&#x6B65;</li>
+</ul>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x5173;&#x8054;&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;&#x5982;&#x4F55;&#x786E;&#x5B9A;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;&#x6027;"><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x5173;&#x8054;&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;&#x5982;&#x4F55;&#x786E;&#x5B9A;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;&#x6027;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x5173;&#x8054;&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;&#x5982;&#x4F55;&#x786E;&#x5B9A;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x5173;&#x8054;&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;&#x5982;&#x4F55;&#x786E;&#x5B9A;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;&#x6027;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x5173;&#x8054;&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;&#x5982;&#x4F55;&#x786E;&#x5B9A;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-11">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x5173;&#x8054;&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;&#x5982;&#x4F55;&#x786E;&#x5B9A;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;&#x6027;</p></h3>
+<blockquote>
+<p>&#x5982;&#x679C;&#x5F00;&#x53D1;&#x8005;&#x62E5;&#x6709;&#x591A;&#x4E2A;&#x79FB;&#x52A8;&#x5E94;&#x7528;&#x3001;&#x7F51;&#x7AD9;&#x5E94;&#x7528;&#x3001;&#x548C;&#x516C;&#x4F17;&#x5E10;&#x53F7;&#xFF08;&#x5305;&#x62EC;&#x5C0F;&#x7A0B;&#x5E8F;&#xFF09;&#xFF0C;&#x53EF;&#x901A;&#x8FC7; <code>unionid</code> &#x6765;&#x533A;&#x5206;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;&#x6027;&#xFF0C;&#x56E0;&#x4E3A;&#x53EA;&#x8981;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x5FAE;&#x4FE1;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x5E10;&#x53F7;&#x4E0B;&#x7684;&#x79FB;&#x52A8;&#x5E94;&#x7528;&#x3001;&#x7F51;&#x7AD9;&#x5E94;&#x7528;&#x548C;&#x516C;&#x4F17;&#x5E10;&#x53F7;&#xFF08;&#x5305;&#x62EC;&#x5C0F;&#x7A0B;&#x5E8F;&#xFF09;&#xFF0C;&#x7528;&#x6237;&#x7684; <code>unionid</code> &#x662F;&#x552F;&#x4E00;&#x7684;&#x3002;&#x6362;&#x53E5;&#x8BDD;&#x8BF4;&#xFF0C;&#x540C;&#x4E00;&#x7528;&#x6237;&#xFF0C;&#x5BF9;&#x540C;&#x4E00;&#x4E2A;&#x5FAE;&#x4FE1;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x4E0B;&#x7684;&#x4E0D;&#x540C;&#x5E94;&#x7528;&#xFF0C;<code>unionid</code> &#x662F;&#x76F8;&#x540C;&#x7684;</p>
+</blockquote>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E0B;&#x62C9;&#x5237;&#x65B0;"><a name="&#x2605;&#x2605;&#x2605;-&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E0B;&#x62C9;&#x5237;&#x65B0;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E0B;&#x62C9;&#x5237;&#x65B0;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E0B;&#x62C9;&#x5237;&#x65B0;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E0B;&#x62C9;&#x5237;&#x65B0;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-12">&#x2605;&#x2605;&#x2605; &#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E0B;&#x62C9;&#x5237;&#x65B0;</p></h3>
+<ul>
+<li>&#x9996;&#x5148;&#x5728;&#x5168;&#x5C40; <code>config</code> &#x4E2D;&#x7684; <code>window</code> &#x914D;&#x7F6E; <code>enablePullDownRefresh</code></li>
+<li>&#x5728; <code>Page</code> &#x4E2D;&#x5B9A;&#x4E49; <code>onPullDownRefresh</code> &#x94A9;&#x5B50;&#x51FD;&#x6570;,&#x5230;&#x8FBE;&#x4E0B;&#x62C9;&#x5237;&#x65B0;&#x6761;&#x4EF6;&#x540E;&#xFF0C;&#x8BE5;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x6267;&#x884C;&#xFF0C;&#x53D1;&#x8D77;&#x8BF7;&#x6C42;&#x65B9;&#x6CD5;</li>
+<li>&#x8BF7;&#x6C42;&#x8FD4;&#x56DE;&#x540E;&#xFF0C;&#x8C03;&#x7528; <code>wx.stopPullDownRefresh</code> &#x505C;&#x6B62;&#x4E0B;&#x62C9;&#x5237;&#x65B0;</li>
+</ul>
+<p>&#x53C2;&#x8003; <a href="https://link.zhihu.com/?target=https%3A//juejin.im/post/5a781c756fb9a063606eb742" target="_blank">&#x8FD9;&#x91CC;</a></p>
+<h3 id="&#x2605;&#x2605;-bindtap-&#x548C;-catchtap-&#x7684;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;"><a name="&#x2605;&#x2605;-bindtap-&#x548C;-catchtap-&#x7684;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;-bindtap-&#x548C;-catchtap-&#x7684;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;-bindtap-&#x548C;-catchtap-&#x7684;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;" class="plugin-anchor" href="#&#x2605;&#x2605;-bindtap-&#x548C;-catchtap-&#x7684;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-13">&#x2605;&#x2605; bindtap &#x548C; catchtap &#x7684;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;</p></h3>
+<p>&#x76F8;&#x540C;&#x70B9;&#xFF1A;&#x9996;&#x5148;&#x4ED6;&#x4EEC;&#x90FD;&#x662F;&#x4F5C;&#x4E3A;&#x70B9;&#x51FB;&#x4E8B;&#x4EF6;&#x51FD;&#x6570;&#xFF0C;&#x5C31;&#x662F;&#x70B9;&#x51FB;&#x65F6;&#x89E6;&#x53D1;&#x3002;&#x5728;&#x8FD9;&#x4E2A;&#x4F5C;&#x7528;&#x4E0A;&#x4ED6;&#x4EEC;&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x53EF;&#x4EE5;&#x4E0D;&#x505A;&#x533A;&#x5206;</p>
+<p>&#x4E0D;&#x540C;&#x70B9;&#xFF1A;&#x4ED6;&#x4EEC;&#x7684;&#x4E0D;&#x540C;&#x70B9;&#x4E3B;&#x8981;&#x662F;bindtap&#x662F;&#x4E0D;&#x4F1A;&#x963B;&#x6B62;&#x5192;&#x6CE1;&#x4E8B;&#x4EF6;&#x7684;&#xFF0C;catchtap&#x662F;&#x963B;&#x6B62;&#x5192;&#x6CE1;&#x7684;</p>
+<h3 id="&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x7684;&#x4E1A;&#x52A1;&#x6D41;&#x7A0B;"><a name="&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x7684;&#x4E1A;&#x52A1;&#x6D41;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x7684;&#x4E1A;&#x52A1;&#x6D41;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x7684;&#x4E1A;&#x52A1;&#x6D41;&#x7A0B;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;&#x2605;-&#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x7684;&#x4E1A;&#x52A1;&#x6D41;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-14">&#x2605;&#x2605;&#x2605;&#x2605; &#x7B80;&#x8FF0;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x7684;&#x4E1A;&#x52A1;&#x6D41;&#x7A0B;</p></h3>
+<ul>
+<li><p>&#x6B65;&#x9AA4;1&#xFF1A;&#x7528;&#x6237;&#x5728;&#x5546;&#x6237;APP&#x4E2D;&#x9009;&#x62E9;&#x5546;&#x54C1;&#xFF0C;&#x63D0;&#x4EA4;&#x8BA2;&#x5355;&#xFF0C;&#x9009;&#x62E9;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x3002;</p>
+</li>
+<li><p>&#x6B65;&#x9AA4;2&#xFF1A;&#x5546;&#x6237;&#x540E;&#x53F0;&#x6536;&#x5230;&#x7528;&#x6237;&#x652F;&#x4ED8;&#x5355;&#xFF0C;&#x8C03;&#x7528;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x7EDF;&#x4E00;&#x4E0B;&#x5355;&#x63A5;&#x53E3;&#x3002;&#x53C2;&#x89C1;<a href="https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=9_1" target="_blank">&#x7EDF;&#x4E00;&#x4E0B;&#x5355;API</a>&#x3002;</p>
+</li>
+<li><p>&#x6B65;&#x9AA4;3&#xFF1A;&#x7EDF;&#x4E00;&#x4E0B;&#x5355;&#x63A5;&#x53E3;&#x8FD4;&#x56DE;&#x6B63;&#x5E38;&#x7684;prepay_id&#xFF0C;&#x518D;&#x6309;&#x7B7E;&#x540D;&#x89C4;&#x8303;&#x91CD;&#x65B0;&#x751F;&#x6210;&#x7B7E;&#x540D;&#x540E;&#xFF0C;&#x5C06;&#x6570;&#x636E;&#x4F20;&#x8F93;&#x7ED9;APP&#x3002;&#x53C2;&#x4E0E;&#x7B7E;&#x540D;&#x7684;&#x5B57;&#x6BB5;&#x540D;&#x4E3A;<code>appid</code>&#xFF0C;<code>partnerid</code>&#xFF0C;<code>prepayid</code>&#xFF0C;<code>noncestr</code>&#xFF0C;<code>timestamp</code>&#xFF0C;<code>package</code>&#x3002;&#x6CE8;&#x610F;&#xFF1A;package&#x7684;&#x503C;&#x683C;&#x5F0F;&#x4E3A;<code>Sign=WXPay</code></p>
+</li>
+<li><p>&#x6B65;&#x9AA4;4&#xFF1A;&#x5546;&#x6237;APP&#x8C03;&#x8D77;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x3002;<code>api</code>&#x53C2;&#x89C1;&#x672C;&#x7AE0;&#x8282;<a href="https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_5" target="_blank">app&#x7AEF;&#x5F00;&#x53D1;&#x6B65;&#x9AA4;&#x8BF4;&#x660E;</a></p>
+</li>
+<li><p>&#x6B65;&#x9AA4;5&#xFF1A;&#x5546;&#x6237;&#x540E;&#x53F0;&#x63A5;&#x6536;&#x652F;&#x4ED8;&#x901A;&#x77E5;&#x3002;<code>api</code>&#x53C2;&#x89C1;<a href="https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=9_7" target="_blank">&#x652F;&#x4ED8;&#x7ED3;&#x679C;&#x901A;&#x77E5;API</a></p>
+</li>
+<li><p>&#x6B65;&#x9AA4;6&#xFF1A;&#x5546;&#x6237;&#x540E;&#x53F0;&#x67E5;&#x8BE2;&#x652F;&#x4ED8;&#x7ED3;&#x679C;&#x3002;&#xFF0C;<code>api</code>&#x53C2;&#x89C1;<a href="https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=9_2" target="_blank">&#x67E5;&#x8BE2;&#x8BA2;&#x5355;API</a>&#xFF08;&#x67E5;&#x5355;&#x5B9E;&#x73B0;&#x53EF;&#x53C2;&#x8003;&#xFF1A;<a href="https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=23_9&amp;index=1" target="_blank">&#x652F;&#x4ED8;&#x56DE;&#x8C03;&#x548C;&#x67E5;&#x5355;&#x5B9E;&#x73B0;&#x6307;&#x5F15;</a>&#xFF09;
+&#x8BE6;&#x60C5;&#x53C2;&#x8003;<a href="https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_3" target="_blank">&#x8FD9;&#x91CC;</a> </p>
+</li>
+</ul>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x4EC0;&#x4E48;&#x662F;&#x5C0F;&#x7A0B;&#x5E8F;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x6837;&#x5F0F;&#x9694;&#x79BB;&#x4ED6;&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x9694;&#x79BB;&#x6A21;&#x5F0F;&#xFF1F;"><a name="&#x2605;&#x2605;&#x2605;-&#x4EC0;&#x4E48;&#x662F;&#x5C0F;&#x7A0B;&#x5E8F;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x6837;&#x5F0F;&#x9694;&#x79BB;&#x4ED6;&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x9694;&#x79BB;&#x6A21;&#x5F0F;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x4EC0;&#x4E48;&#x662F;&#x5C0F;&#x7A0B;&#x5E8F;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x6837;&#x5F0F;&#x9694;&#x79BB;&#x4ED6;&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x9694;&#x79BB;&#x6A21;&#x5F0F;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x4EC0;&#x4E48;&#x662F;&#x5C0F;&#x7A0B;&#x5E8F;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x6837;&#x5F0F;&#x9694;&#x79BB;&#x4ED6;&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x9694;&#x79BB;&#x6A21;&#x5F0F;&#xFF1F;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x4EC0;&#x4E48;&#x662F;&#x5C0F;&#x7A0B;&#x5E8F;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x6837;&#x5F0F;&#x9694;&#x79BB;&#x4ED6;&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x9694;&#x79BB;&#x6A21;&#x5F0F;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-15">&#x2605;&#x2605;&#x2605; &#x4EC0;&#x4E48;&#x662F;&#x5C0F;&#x7A0B;&#x5E8F;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x6837;&#x5F0F;&#x9694;&#x79BB;,&#x4ED6;&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x9694;&#x79BB;&#x6A21;&#x5F0F;&#xFF1F;</p></h3>
+<ul>
+<li>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x7684;&#x6837;&#x5F0F;&#x53EA;&#x53D7;&#x5230;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6; wxss &#x7684;&#x5F71;&#x54CD;&#x3002;&#x9664;&#x975E;&#x4EE5;&#x4E0B;&#x4E24;&#x79CD;&#x60C5;&#x51B5;&#xFF1A;</li>
+<li>app.wxss &#x6216;&#x9875;&#x9762;&#x7684; wxss &#x4E2D;&#x4F7F;&#x7528;&#x4E86;&#x6807;&#x7B7E;&#x540D;&#x9009;&#x62E9;&#x5668;&#xFF08;&#x6216;&#x4E00;&#x4E9B;&#x5176;&#x4ED6;&#x7279;&#x6B8A;&#x9009;&#x62E9;&#x5668;&#xFF09;&#x6765;&#x76F4;&#x63A5;&#x6307;&#x5B9A;&#x6837;&#x5F0F;&#xFF0C;&#x8FD9;&#x4E9B;&#x9009;&#x62E9;&#x5668;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x9875;&#x9762;&#x548C;&#x5168;&#x90E8;&#x7EC4;&#x4EF6;&#x3002;&#x901A;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#x8FD9;&#x662F;&#x4E0D;&#x63A8;&#x8350;&#x7684;&#x505A;&#x6CD5;&#x3002;</li>
+<li>&#x6307;&#x5B9A;&#x7279;&#x6B8A;&#x7684;&#x6837;&#x5F0F;&#x9694;&#x79BB;&#x9009;&#x9879; styleIsolation &#x3002;</li>
+<li><p>styleIsolation &#x9009;&#x9879;&#x4ECE;&#x57FA;&#x7840;&#x5E93;&#x7248;&#x672C; 2.6.5 &#x5F00;&#x59CB;&#x652F;&#x6301;&#x3002;&#x5B83;&#x652F;&#x6301;&#x4EE5;&#x4E0B;&#x53D6;&#x503C;&#xFF1A;</p>
+</li>
+<li><p>isolated &#x8868;&#x793A;&#x542F;&#x7528;&#x6837;&#x5F0F;&#x9694;&#x79BB;&#xFF0C;&#x5728;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x5185;&#x5916;&#xFF0C;&#x4F7F;&#x7528; class &#x6307;&#x5B9A;&#x7684;&#x6837;&#x5F0F;&#x5C06;&#x4E0D;&#x4F1A;&#x76F8;&#x4E92;&#x5F71;&#x54CD;&#xFF08;&#x4E00;&#x822C;&#x60C5;&#x51B5;&#x4E0B;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#xFF09;&#xFF1B;</p>
+</li>
+<li>apply-shared &#x8868;&#x793A;&#x9875;&#x9762; wxss &#x6837;&#x5F0F;&#x5C06;&#x5F71;&#x54CD;&#x5230;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#xFF0C;&#x4F46;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6; wxss &#x4E2D;&#x6307;&#x5B9A;&#x7684;&#x6837;&#x5F0F;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x9875;&#x9762;&#xFF1B;</li>
+<li>shared &#x8868;&#x793A;&#x9875;&#x9762; wxss &#x6837;&#x5F0F;&#x5C06;&#x5F71;&#x54CD;&#x5230;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6; wxss &#x4E2D;&#x6307;&#x5B9A;&#x7684;&#x6837;&#x5F0F;&#x4E5F;&#x4F1A;&#x5F71;&#x54CD;&#x9875;&#x9762;&#x548C;&#x5176;&#x4ED6;&#x8BBE;&#x7F6E;&#x4E86; apply-shared &#x6216; shared &#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x3002;&#xFF08;&#x8FD9;&#x4E2A;&#x9009;&#x9879;&#x5728;&#x63D2;&#x4EF6;&#x4E2D;&#x4E0D;&#x53EF;&#x7528;&#x3002;&#xFF09;
+&#x53C2;&#x8003;<a href="https://zhuanlan.zhihu.com/p/163190376" target="_blank">&#x8FD9;&#x91CC;</a> </li>
+</ul>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x5728;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x53C8;&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x8BA9;&#x56FE;&#x7247;&#x5BBD;&#x9AD8;&#x6BD4;&#x4F8B;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF1F;"><a name="&#x2605;&#x2605;&#x2605;-&#x5728;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x53C8;&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x8BA9;&#x56FE;&#x7247;&#x5BBD;&#x9AD8;&#x6BD4;&#x4F8B;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5728;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x53C8;&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x8BA9;&#x56FE;&#x7247;&#x5BBD;&#x9AD8;&#x6BD4;&#x4F8B;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x5728;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x53C8;&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x8BA9;&#x56FE;&#x7247;&#x5BBD;&#x9AD8;&#x6BD4;&#x4F8B;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF1F;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5728;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x53C8;&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x8BA9;&#x56FE;&#x7247;&#x5BBD;&#x9AD8;&#x6BD4;&#x4F8B;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-16">&#x2605;&#x2605;&#x2605; &#x5728;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x53C8;&#x54EA;&#x4E9B;&#x65B9;&#x6CD5;&#x8BA9;&#x56FE;&#x7247;&#x5BBD;&#x9AD8;&#x6BD4;&#x4F8B;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF1F;</p></h3>
+<ul>
+<li>&#x4F7F;&#x7528;mode&#xFF1A;widthFix<blockquote>
+<p><code>widthFix</code>&#xFF1A;&#x5BBD;&#x5EA6;&#x4E0D;&#x53D8;&#xFF0C;&#x9AD8;&#x5EA6;&#x81EA;&#x52A8;&#x53D8;&#x5316;&#xFF0C;&#x4FDD;&#x6301;&#x539F;&#x56FE;&#x5BBD;&#x9AD8;&#x6BD4;&#x4E0D;&#x53D8;&#x3002;
+&#x9996;&#x5148;&#x6211;&#x4EEC;&#x5148;&#x8BBE;&#x7F6E;image&#x7684;mode&#x4E3A;<code>widthFix</code>&#xFF0C;&#x7136;&#x540E;&#x7ED9;&#x56FE;&#x7247;&#x52A0;&#x4E00;&#x4E2A;&#x56FA;&#x5B9A;<code>rpx</code>&#x7684;&#x5BBD;&#x5EA6;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;<code>730rpx</code>&#x3002;
+&#x8FD9;&#x6837;&#x56FE;&#x7247;&#x4E5F;&#x53EF;&#x4EE5;&#x81EA;&#x9002;&#x5E94;&#x4E86;&#x3002;&#x3002;&#x56E0;&#x4E3A;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;<code>rpx</code>&#x672C;&#x8EAB;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x81EA;&#x9002;&#x5E94;&#x663E;&#x793A;&#x7684;&#x5355;&#x4F4D;</p>
+</blockquote>
+</li>
+<li>&#x4F7F;&#x7528;mode&#x5C5E;&#x6027;&#x4E3A;<code>aspectFit</code>,&#x5E76;&#x7ED9;&#x56FE;&#x7247;&#x4E00;&#x4E2A;&#x56FA;&#x5B9A;<code>rpx</code>&#x5BBD;&#x9AD8;<pre><code class="lang-js">&lt;image src=<span class="hljs-string">&quot;/images/1.png&quot;</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&quot;img&quot;</span> mode=<span class="hljs-string">&quot;widthFix&quot;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">image</span>&gt;</span></span>
+</code></pre>
+</li>
+<li>&#x4F7F;&#x7528;<code>bindload</code>&#x7ED1;&#x5B9A;&#x51FD;&#x6570;&#x52A8;&#x6001;&#x81EA;&#x9002;&#x5E94;</li>
+</ul>
+<blockquote>
+<p>&#x8BE6;&#x60C5;&#x53C2;&#x8003;<a href="http://www.qianduan8.com/1005.html" target="_blank">&#x8FD9;&#x91CC;</a> </p>
+</blockquote>
+<h3 id="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x4F20;&#x53C2;&#x7236;&#x5B50;&#xFF0C;&#x5B50;&#x7236;"><a name="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x4F20;&#x53C2;&#x7236;&#x5B50;&#xFF0C;&#x5B50;&#x7236;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x4F20;&#x53C2;&#x7236;&#x5B50;&#xFF0C;&#x5B50;&#x7236;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x4F20;&#x53C2;&#x7236;&#x5B50;&#xFF0C;&#x5B50;&#x7236;" class="plugin-anchor" href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x4F20;&#x53C2;&#x7236;&#x5B50;&#xFF0C;&#x5B50;&#x7236;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-17">&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x4F20;&#x53C2;(&#x7236;&#x5B50;&#xFF0C;&#x5B50;&#x7236;)</p></h3>
+<ul>
+<li>&#x7236;&#x4F20;&#x5B50;<blockquote>
+<p>&#x81EA;&#x5B9A;&#x4E49;&#x5C5E;&#x6027;&#xFF0C;&#x5C5E;&#x6027;&#x7684;&#x503C;&#x6765;&#x81EA;&#x58F0;&#x660E;&#x5F0F;&#x53D8;&#x91CF;
+&#x5B50;&#x7EC4;&#x4EF6;&#x901A;&#x8FC7;props&#x63A5;&#x6536;</p>
+</blockquote>
+</li>
+<li>&#x5B50;&#x4F20;&#x7236;<blockquote>
+<p>&#x81EA;&#x5B9A;&#x4E49;&#x4E8B;&#x4EF6;&#xFF0C;&#x7236;&#x7EC4;&#x4EF6;&#x901A;&#x8FC7;&#x4E8B;&#x4EF6;&#x63A5;&#x6536;&#x5B50;&#x7EC4;&#x4EF6;&#x4F20;&#x8FC7;&#x6765;&#x7684;&#x503C;
+&#x81EA;&#x5B9A;&#x4E49;&#x5C01;&#x88C5;&#x7EC4;&#x4EF6;&#x7684;&#x4F8B;&#x5B50;&#xFF1A;</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="lang-javascript"> //&#x7236;&#x7EC4;&#x4EF6;&#x4F7F;&#x7528;
+ //&#x63A5;&#x6536;&#x5B50;&#x7EC4;&#x4EF6;&#x6570;&#x636E;&#x7684;&#x4E8B;&#x4EF6;
+  ontogg(ele) {
+    console.log(&apos;&#x63A5;&#x6536;&#x5B50;&#x7EC4;&#x4EF6;&#x53D1;&#x8FC7;&#x6765;&#x7684;&#x6570;&#x636E;&apos;,ele)
+  }
+ //&#x81EA;&#x5B9A;&#x4E49;&#x6A2A;&#x5411;&#x6EDA;&#x52A8;&#x6761;
+ let { box, imgs, cates,toView ,flag,end} = this.state
+          &lt;ScroLLview
+            flag={flag}
+            toView={toView}
+            cates={cates}
+            box={box}
+            onChange={(ele)=&gt;this.ontogg(ele)}
+          /&gt;
+
+
+  //&#x5B50;&#x7EC4;&#x4EF6;
+  export default props=&gt;{
+  //&#x63A5;&#x6536;&#x7236;&#x7EC4;&#x4EF6;&#x4F20;&#x8FC7;&#x6765;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x4E8B;&#x4EF6;
+  const {box,flag,toView,cates,onChange}=props
+  const renderSCview=()=&gt;{
+    return(
+      cates.map(ele =&gt; (
+        //view&#x8981;&#x52A0;id&#xFF0C;&#x548C;scroll-into-view&#x76F8;&#x5173;&#x8054;
+        &lt;View
+          //&#x4F20;&#x7ED9;&#x7236;&#x7EC4;&#x4EF6;&#x7684;&#x4E8B;&#x4EF6;&#xFF0C;&#x8981;&#x4F20;&#x8FC7;&#x53BB;&#x7684;&#x6570;&#x636E;&#x653E;&#x5728;onchange&#x53C2;&#x6570;&#x91CC;&#x9762;
+          onClick={() =&gt; onChange(ele)}
+          className={ele.cate === box ? &apos;mack on&apos; : &apos;mack&apos;}
+          key={ele.id}
+          id={&apos;c&apos;+ele.id}
+        &gt;
+          {ele.cate_zh}
+        &lt;/View&gt;
+      ))
+    )
+  }
+  return (
+    // &#x6A2A;&#x5411;&#x6EDA;&#x52A8;&#x6761;
+    &lt;View style={ {position:flag ? &quot;fixed&quot;:&quot;static&quot;} } className=&quot;nav fix&quot;&gt;
+      &lt;ScrollView 
+        className=&quot;scroll-view_H&quot;
+        scrollX
+        scrollIntoView={&apos;c&apos;+(toView-1)}
+        &gt;
+        &lt;View className=&quot;list&quot;&gt;
+          {renderSCview()}
+        &lt;/View&gt;
+      &lt;/ScrollView&gt;
+    &lt;/View&gt;
+  )
+}
+</code></pre>
+<ul>
+<li>&#x8FD8;&#x53EF;&#x4EE5;&#x53C2;&#x8003;<a href="https://zhuanlan.zhihu.com/p/267714541" target="_blank">&#x8FD9;&#x91CC;</a></li>
+</ul>
+<h3 id="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x751F;&#x547D;&#x5468;&#x671F;"><a name="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x751F;&#x547D;&#x5468;&#x671F;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x751F;&#x547D;&#x5468;&#x671F;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x751F;&#x547D;&#x5468;&#x671F;" class="plugin-anchor" href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x751F;&#x547D;&#x5468;&#x671F;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-18">&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x751F;&#x547D;&#x5468;&#x671F;</p></h3>
+<ul>
+<li><p>&#x7EC4;&#x4EF6;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#xFF0C;&#x6307;&#x7684;&#x662F;&#x7EC4;&#x4EF6;&#x81EA;&#x8EAB;&#x7684;&#x4E00;&#x4E9B;&#x51FD;&#x6570;&#xFF0C;&#x8FD9;&#x4E9B;&#x51FD;&#x6570;&#x5728;&#x7279;&#x6B8A;&#x7684;&#x65F6;&#x95F4;&#x70B9;&#x6216;&#x9047;&#x5230;&#x4E00;&#x4E9B;&#x7279;&#x6B8A;&#x7684;&#x6846;&#x67B6;&#x4E8B;&#x4EF6;&#x65F6;&#x88AB;&#x81EA;&#x52A8;&#x89E6;&#x53D1;</p>
+<p>| &#x751F;&#x547D;&#x5468;&#x671F; | &#x53C2;&#x6570;         | &#x63CF;&#x8FF0;                                     | &#x6700;&#x4F4E;&#x7248;&#x672C; |
+| -------- | ------------ | ---------------------------------------- | -------- |
+| created  | &#x65E0;           | &#x5728;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x521A;&#x521A;&#x88AB;&#x521B;&#x5EFA;&#x65F6;&#x6267;&#x884C;               | 1.6.3    |
+| attached | &#x65E0;           | &#x5728;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x8FDB;&#x5165;&#x9875;&#x9762;&#x8282;&#x70B9;&#x6811;&#x65F6;&#x6267;&#x884C;           | 1.6.3    |
+| ready    | &#x65E0;           | &#x5728;&#x7EC4;&#x4EF6;&#x5728;&#x89C6;&#x56FE;&#x5C42;&#x5E03;&#x5C40;&#x5B8C;&#x6210;&#x540E;&#x6267;&#x884C;             | 1.6.3    |
+| moved    | &#x65E0;           | &#x5728;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x88AB;&#x79FB;&#x52A8;&#x5230;&#x8282;&#x70B9;&#x6811;&#x53E6;&#x4E00;&#x4E2A;&#x4F4D;&#x7F6E;&#x65F6;&#x6267;&#x884C; | 1.6.3    |
+| detached | &#x65E0;           | &#x5728;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x88AB;&#x4ECE;&#x9875;&#x9762;&#x8282;&#x70B9;&#x6811;&#x79FB;&#x9664;&#x65F6;&#x6267;&#x884C;       | 1.6.3    |
+| error    | Object Error | &#x6BCF;&#x5F53;&#x7EC4;&#x4EF6;&#x65B9;&#x6CD5;&#x629B;&#x51FA;&#x9519;&#x8BEF;&#x65F6;&#x6267;&#x884C;               | 2.4.1    |</p>
+</li>
+</ul>
+<p>&#x53C2;&#x8003;<a href="https://blog.csdn.net/weixin_41829477/article/details/104297088" target="_blank">&#x8FD9;&#x91CC;</a> </p>
+<h3 id="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x751F;&#x547D;&#x5468;&#x671F;"><a name="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x751F;&#x547D;&#x5468;&#x671F;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x751F;&#x547D;&#x5468;&#x671F;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x751F;&#x547D;&#x5468;&#x671F;" class="plugin-anchor" href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x751F;&#x547D;&#x5468;&#x671F;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-19">&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x9875;&#x9762;&#x751F;&#x547D;&#x5468;&#x671F;</p></h3>
+<ul>
+<li>1&#x3001;&#x5C0F;&#x7A0B;&#x5E8F;&#x6CE8;&#x518C;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x52A0;&#x8F7D;&#x9875;&#x9762;&#xFF0C;&#x89E6;&#x53D1;<code>onLoad</code>&#x65B9;&#x6CD5;&#xFF0C;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x53EA;&#x4F1A;&#x8C03;&#x7528;&#x4E00;&#x6B21;&#x3002;</li>
+<li>2&#x3001;&#x9875;&#x9762;&#x8F7D;&#x5165;&#x540E;&#x89E6;&#x53D1;<code>onShow</code>&#x65B9;&#x6CD5;&#xFF0C;&#x663E;&#x793A;&#x9875;&#x9762;&#xFF0C;&#x6BCF;&#x6B21;&#x6253;&#x5F00;&#x9875;&#x9762;&#x90FD;&#x4F1A;&#x8C03;&#x7528;&#x4E00;&#x6B21;&#x3002;</li>
+<li>3&#x3001;&#x9996;&#x6B21;&#x663E;&#x793A;&#x9875;&#x9762;&#xFF0C;&#x4F1A;&#x89E6;&#x53D1;<code>onReady</code>&#x65B9;&#x6CD5;&#xFF0C;&#x6E32;&#x67D3;&#x9875;&#x9762;&#x5143;&#x7D20;&#x548C;&#x6837;&#x5F0F;&#xFF0C;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x53EA;&#x4F1A;&#x8C03;&#x7528;&#x4E00;&#x6B21;&#x3002;</li>
+<li>4&#x3001;&#x5F53;&#x5C0F;&#x7A0B;&#x5E8F;&#x540E;&#x53F0;&#x8FD0;&#x884C;&#x6216;&#x8DF3;&#x8F6C;&#x5230;&#x5176;&#x4ED6;&#x9875;&#x9762;&#x65F6;&#xFF0C;&#x89E6;&#x53D1;<code>onHide</code>&#x65B9;&#x6CD5;&#x3002;</li>
+<li>5&#x3001;&#x5F53;&#x5C0F;&#x7A0B;&#x5E8F;&#x6709;&#x540E;&#x53F0;&#x8FDB;&#x5165;&#x5230;&#x524D;&#x53F0;&#x8FD0;&#x884C;&#x6216;&#x91CD;&#x65B0;&#x8FDB;&#x5165;&#x9875;&#x9762;&#x65F6;&#xFF0C;&#x89E6;&#x53D1;<code>onShow</code>&#x65B9;&#x6CD5;&#x3002;</li>
+<li>6&#x3001;&#x5F53;&#x4F7F;&#x7528;&#x91CD;&#x5B9A;&#x5411;&#x65B9;&#x6CD5;<code>wx.redirectTo(OBJECT)</code>&#x6216;&#x5173;&#x95ED;&#x5F53;&#x524D;&#x9875;&#x8FD4;&#x56DE;&#x4E0A;&#x4E00;&#x9875;<code>wx.navigateBack()</code>&#xFF0C;&#x89E6;&#x53D1;<code>onUnload</code></li>
+</ul>
+<p>&#x53C2;&#x8003;<a href="https://zhuanlan.zhihu.com/p/28872497" target="_blank">&#x8FD9;&#x91CC;</a> </p>
+<h3 id="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x600E;&#x4E48;&#x6837;&#x5B9E;&#x73B0;&#x8DEF;&#x7531;&#x4F20;&#x53C2;-"><a name="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x600E;&#x4E48;&#x6837;&#x5B9E;&#x73B0;&#x8DEF;&#x7531;&#x4F20;&#x53C2;-" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x600E;&#x4E48;&#x6837;&#x5B9E;&#x73B0;&#x8DEF;&#x7531;&#x4F20;&#x53C2;-"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x600E;&#x4E48;&#x6837;&#x5B9E;&#x73B0;&#x8DEF;&#x7531;&#x4F20;&#x53C2;-" class="plugin-anchor" href="#&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x600E;&#x4E48;&#x6837;&#x5B9E;&#x73B0;&#x8DEF;&#x7531;&#x4F20;&#x53C2;-"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-20">&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x600E;&#x4E48;&#x6837;&#x5B9E;&#x73B0;&#x8DEF;&#x7531;&#x4F20;&#x53C2; </p></h3>
+<ul>
+<li><code>wx.navigateTo</code> &#xFF08;&#x975E; <code>tabBar</code> &#x7684;&#x9875;&#x9762;&#x7684;&#x8DEF;&#x5F84;&#xFF0C;&#x80FD;&#x8FD4;&#x56DE;&#x6765;&#xFF0C;&#x53EA;&#x80FD;&#x6709;&#x4E94;&#x5C42;&#xFF09;<pre><code class="lang-js">wx.navigateTo({
+  url: <span class="hljs-string">&apos;../placeIntroduce/placeIntroduce?placeId=2&apos;</span>,<span class="hljs-comment">//&#x5728;&#x8DEF;&#x5F84;&#x540E;&#x9762;&#x62FC;&#x63A5;</span>
+  })
+  &#x53E6;&#x5916;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x901A;&#x8FC7;onload(options)&#x8FD9;&#x4E2A;&#x751F;&#x547D;&#x5468;&#x671F;&#x83B7;&#x53D6;&#x5230;placeId
+</code></pre>
+</li>
+<li><code>wx.redirectTo</code> &#xFF08;&#x975E; <code>tabBar</code> &#x7684;&#x9875;&#x9762;&#x7684;&#x8DEF;&#x5F84;&#xFF0C;&#x4E0D;&#x80FD;&#x8FD4;&#x56DE;&#x6765;&#xFF0C;&#x4E0D;&#x9650;&#x5C42;&#xFF09;<pre><code class="lang-js">wx.redirectTo &#xFF08;&#x975E; tabBar &#x7684;&#x9875;&#x9762;&#x7684;&#x8DEF;&#x5F84;&#xFF0C;&#x4E0D;&#x80FD;&#x8FD4;&#x56DE;&#x6765;&#xFF0C;&#x4E0D;&#x9650;&#x5C42;&#xFF09;
+wx.redirectTo ({
+  url: <span class="hljs-string">&apos;../placeIntroduce/placeIntroduce?placeId=2&apos;</span>,<span class="hljs-comment">//&#x5728;&#x8DEF;&#x5F84;&#x540E;&#x9762;&#x62FC;&#x63A5;</span>
+</code></pre>
+&#x53C2;&#x8003;<a href="https://blog.csdn.net/weixin_30276935/article/details/97401135" target="_blank">&#x8FD9;&#x91CC;</a> </li>
+</ul>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;switchtab-navigateto-redirectto&#x7684;&#x533A;&#x522B;"><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;switchtab-navigateto-redirectto&#x7684;&#x533A;&#x522B;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;switchtab-navigateto-redirectto&#x7684;&#x533A;&#x522B;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;switchtab-navigateto-redirectto&#x7684;&#x533A;&#x522B;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;switchtab-navigateto-redirectto&#x7684;&#x533A;&#x522B;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-21">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;switchTab navigateTo redirectTo&#x7684;&#x533A;&#x522B;</p></h3>
+<ul>
+<li>wx.navigateTo()&#xFF1A;&#x4FDD;&#x7559;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF0C;&#x8DF3;&#x8F6C;&#x5230;&#x5E94;&#x7528;&#x5185;&#x7684;&#x67D0;&#x4E2A;&#x9875;&#x9762;&#x3002;&#x4F46;&#x662F;&#x4E0D;&#x80FD;&#x8DF3;&#x5230; <code>tabbar</code> &#x9875;&#x9762;</li>
+<li>wx.redirectTo()&#xFF1A;&#x5173;&#x95ED;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF0C;&#x8DF3;&#x8F6C;&#x5230;&#x5E94;&#x7528;&#x5185;&#x7684;&#x67D0;&#x4E2A;&#x9875;&#x9762;&#x3002;&#x4F46;&#x662F;&#x4E0D;&#x5141;&#x8BB8;&#x8DF3;&#x8F6C;&#x5230; <code>tabbar</code> &#x9875;&#x9762;</li>
+<li>wx.switchTab()&#xFF1A;&#x8DF3;&#x8F6C;&#x5230; <code>abBar</code> &#x9875;&#x9762;&#xFF0C;&#x5E76;&#x5173;&#x95ED;&#x5176;&#x4ED6;&#x6240;&#x6709;&#x975E; <code>tabBar</code> &#x9875;&#x9762;</li>
+<li>wx.navigateBack()&#x5173;&#x95ED;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF0C;&#x8FD4;&#x56DE;&#x4E0A;&#x4E00;&#x9875;&#x9762;&#x6216;&#x591A;&#x7EA7;&#x9875;&#x9762;&#x3002;&#x53EF;&#x901A;&#x8FC7; <code>getCurrentPages()</code> &#x83B7;&#x53D6;&#x5F53;&#x524D;&#x7684;&#x9875;&#x9762;&#x6808;&#xFF0C;&#x51B3;&#x5B9A;&#x9700;&#x8981;&#x8FD4;&#x56DE;&#x51E0;&#x5C42;</li>
+<li>wx.reLaunch()&#xFF1A;&#x5173;&#x95ED;&#x6240;&#x6709;&#x9875;&#x9762;&#xFF0C;&#x6253;&#x5F00;&#x5230;&#x5E94;&#x7528;&#x5185;&#x7684;&#x67D0;&#x4E2A;&#x9875;&#x9762;</li>
+</ul>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;tabbar&#x5B9E;&#x73B0;&#x539F;&#x7406;"><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;tabbar&#x5B9E;&#x73B0;&#x539F;&#x7406;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;tabbar&#x5B9E;&#x73B0;&#x539F;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;tabbar&#x5B9E;&#x73B0;&#x539F;&#x7406;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;tabbar&#x5B9E;&#x73B0;&#x539F;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-22">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;tabbar&#x5B9E;&#x73B0;&#x539F;&#x7406;</p></h3>
+<ul>
+<li>&#x8981;&#x5B9E;&#x73B0;tabbar&#x7684;&#x5BFC;&#x822A;&#x6761;&#x5176;&#x5B9E;&#x5F88;&#x7B80;&#x5355;&#xFF0C;&#x6211;&#x4EEC;&#x8981;&#x5B9E;&#x73B0;&#x5168;&#x5C40;&#x7684;tabbar&#x53EA;&#x9700;&#x8981;&#x5728;app.json&#x6587;&#x4EF6;&#x4E2D;&#x5B9A;&#x4E49;&#x5373;&#x53EF;&#xFF0C;&#x5C40;&#x90E8;&#x7684;&#x5C31;&#x5728;&#x5C40;&#x90E8;&#x7684;tabbar&#x6587;&#x4EF6;&#x4E2D;&#x5B9E;&#x73B0;&#x3002;<blockquote>
+<p>&#x6765;&#x770B;&#x770B;app.json&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+pages: [
+  <span class="hljs-string">&apos;pages/index/index&apos;</span>,
+  <span class="hljs-string">&quot;pages/search/search&quot;</span>,
+  <span class="hljs-string">&apos;pages/news/news&apos;</span>,
+  <span class="hljs-string">&apos;pages/attention/attention&apos;</span>,
+  <span class="hljs-string">&apos;pages/collect/collect&apos;</span>,
+  <span class="hljs-string">&apos;pages/comment/comment&apos;</span>,
+  <span class="hljs-string">&apos;pages/my/my&apos;</span>,
+  <span class="hljs-string">&quot;pages/detail/detail&quot;</span>,
+  <span class="hljs-string">&quot;pages/chat/chat&quot;</span>,
+],
+<span class="hljs-built_in">window</span>: {
+  backgroundTextStyle: <span class="hljs-string">&apos;light&apos;</span>,
+  navigationBarBackgroundColor: <span class="hljs-string">&apos;#fff&apos;</span>,
+  navigationBarTitleText: <span class="hljs-string">&apos;&#x5C0F;&#x7EA2;&#x4E66;&apos;</span>,
+  navigationBarTextStyle: <span class="hljs-string">&apos;black&apos;</span>,
+  enablePullDownRefresh: <span class="hljs-literal">true</span>
+},
+tabBar: {
+  <span class="hljs-string">&quot;list&quot;</span>: [
+    {
+      <span class="hljs-string">&quot;pagePath&quot;</span>: <span class="hljs-string">&quot;pages/index/index&quot;</span>,
+      <span class="hljs-string">&quot;text&quot;</span>: <span class="hljs-string">&quot;&#x9996;&#x9875;&quot;</span>,
+      <span class="hljs-string">&quot;iconPath&quot;</span>: <span class="hljs-string">&quot;assets/tabbar/1.png&quot;</span>,
+      <span class="hljs-string">&quot;selectedIconPath&quot;</span>: <span class="hljs-string">&quot;assets/tabbar/2.png&quot;</span>
+    },
+    {
+      <span class="hljs-string">&quot;pagePath&quot;</span>: <span class="hljs-string">&quot;pages/news/news&quot;</span>,
+      <span class="hljs-string">&quot;text&quot;</span>: <span class="hljs-string">&quot;&#x6D88;&#x606F;&quot;</span>,
+      <span class="hljs-string">&quot;iconPath&quot;</span>: <span class="hljs-string">&quot;assets/tabbar/news1.png&quot;</span>,
+      <span class="hljs-string">&quot;selectedIconPath&quot;</span>: <span class="hljs-string">&quot;assets/tabbar/news2.png&quot;</span>
+    },
+    {
+      <span class="hljs-string">&quot;pagePath&quot;</span>: <span class="hljs-string">&quot;pages/my/my&quot;</span>,
+      <span class="hljs-string">&quot;text&quot;</span>: <span class="hljs-string">&quot;&#x6211;&#x7684;&quot;</span>,
+      <span class="hljs-string">&quot;iconPath&quot;</span>: <span class="hljs-string">&quot;assets/tabbar/3.png&quot;</span>,
+      <span class="hljs-string">&quot;selectedIconPath&quot;</span>: <span class="hljs-string">&quot;assets/tabbar/4.png&quot;</span>
+    }
+  ]
+},
+permission: {
+  <span class="hljs-string">&quot;scope.userLocation&quot;</span>: {
+    <span class="hljs-string">&quot;desc&quot;</span>: <span class="hljs-string">&quot;&#x4E3A;&#x4E86;&#x66F4;&#x597D;&#x7684;&#x4E3A;&#x4F60;&#x670D;&#x52A1;&#xFF0C;&#x8BF7;&#x5141;&#x8BB8;&#x8BBF;&#x95EE;&#x4F60;&#x7684;&#x5730;&#x5740;&quot;</span>
+  }
+}
+}
+</code></pre>
+<p>&#x53C2;&#x8003;<a href="https://www.cnblogs.com/izhaofu/p/6278589.html" target="_blank">&#x8FD9;&#x91CC;</a> </p>
+</blockquote>
+</li>
+</ul>
+<h3 id="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x6027;&#x80FD;&#x4E3A;&#x4EC0;&#x4E48;&#x90A3;&#x4E48;&#x597D;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x80FD;&#x505A;&#x5230;&#x5373;&#x7528;&#x5373;&#x8D70;&#x7684;&#x6548;&#x679C;"><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x6027;&#x80FD;&#x4E3A;&#x4EC0;&#x4E48;&#x90A3;&#x4E48;&#x597D;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x80FD;&#x505A;&#x5230;&#x5373;&#x7528;&#x5373;&#x8D70;&#x7684;&#x6548;&#x679C;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x6027;&#x80FD;&#x4E3A;&#x4EC0;&#x4E48;&#x90A3;&#x4E48;&#x597D;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x80FD;&#x505A;&#x5230;&#x5373;&#x7528;&#x5373;&#x8D70;&#x7684;&#x6548;&#x679C;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x6027;&#x80FD;&#x4E3A;&#x4EC0;&#x4E48;&#x90A3;&#x4E48;&#x597D;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x80FD;&#x505A;&#x5230;&#x5373;&#x7528;&#x5373;&#x8D70;&#x7684;&#x6548;&#x679C;" class="plugin-anchor" href="#&#x2605;&#x2605;&#x2605;-&#x5C0F;&#x7A0B;&#x5E8F;&#x6027;&#x80FD;&#x4E3A;&#x4EC0;&#x4E48;&#x90A3;&#x4E48;&#x597D;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x80FD;&#x505A;&#x5230;&#x5373;&#x7528;&#x5373;&#x8D70;&#x7684;&#x6548;&#x679C;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-23">&#x2605;&#x2605;&#x2605; &#x5C0F;&#x7A0B;&#x5E8F;&#x6027;&#x80FD;&#x4E3A;&#x4EC0;&#x4E48;&#x90A3;&#x4E48;&#x597D;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x80FD;&#x505A;&#x5230;&#x5373;&#x7528;&#x5373;&#x8D70;&#x7684;&#x6548;&#x679C;</p></h3>
+<ul>
+<li>&#x56E0;&#x4E3A;&#x662F;&#x8F7B;&#x91CF;&#x7EA7;&#x7684;&#xFF0C;&#x4EE3;&#x7801;&#x5305;&#x4F53;&#x79EF;&#x9650;&#x5236;&#x5728;2M&#x4EE5;&#x5185;&#xFF0C;&#x5982;&#x679C;&#x8D85;&#x8FC7;2M&#x8FD8;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x5206;&#x5305;&#xFF0C;&#x63D0;&#x9AD8;&#x6027;&#x80FD;&#x4F18;&#x5316;</li>
+<li>&#x8FD0;&#x884C;&#x5728;&#x5FAE;&#x4FE1;&#x7AEF;,&#x5F88;&#x591A;&#x529F;&#x80FD;&#x53EA;&#x9700;&#x8981;&#x4F7F;&#x7528;API&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x8DDF;APP&#x7684;&#x4E00;&#x6837;&#x7684;&#x529F;&#x80FD;</li>
+<li>&#x56E0;&#x4E3A;&#x4ED6;&#x7684;&#x53CC;&#x7EBF;&#x7A0B;&#x7684;&#x6A21;&#x578B;&#x7684;&#x539F;&#x56E0;&#xFF0C;&#x8BA9;&#x5C0F;&#x7A0B;&#x5E8F;&#x53EF;&#x4EE5;&#x5FEB;&#x901F;&#x7684;&#x4E00;&#x4E0B;&#x5C06;&#x6570;&#x636E;&#x6E32;&#x67D3;&#x51FA;&#x6765;&#x5448;&#x73B0;&#x5728;&#x7528;&#x6237;&#x7684;&#x9762;&#x524D;</li>
+<li>&#x662F;&#x57FA;&#x4E8E;&#x536B;&#x661F;&#x6216;&#x8005;&#x652F;&#x4ED8;&#x5B9D;&#x8FD9;&#x6837;&#x7684;&#x5BBF;&#x4E3B;&#x73AF;&#x5883;&#x7684;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x6237;&#x7AEF;&#x63D0;&#x4F9B;&#x53CC;&#x7EBF;&#x7A0B;&#x53BB;&#x6267;&#x884C;wxml, wxss, js&#x6587;&#x4EF6;</li>
+</ul>
+<p>&#x53C2;&#x8003;<a href="https://blog.csdn.net/xfy196/article/details/108232592" target="_blank">&#x8FD9;&#x91CC;</a></p>
+<h3 id="&#x2605;&#x2605;-&#x5982;&#x4F55;&#x81EA;&#x5B9A;&#x4E49;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;navigationbar"><a name="&#x2605;&#x2605;-&#x5982;&#x4F55;&#x81EA;&#x5B9A;&#x4E49;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;navigationbar" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;-&#x5982;&#x4F55;&#x81EA;&#x5B9A;&#x4E49;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;navigationbar"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;-&#x5982;&#x4F55;&#x81EA;&#x5B9A;&#x4E49;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;navigationbar" class="plugin-anchor" href="#&#x2605;&#x2605;-&#x5982;&#x4F55;&#x81EA;&#x5B9A;&#x4E49;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;navigationbar"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-24">&#x2605;&#x2605; &#x5982;&#x4F55;&#x81EA;&#x5B9A;&#x4E49;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;navigationBar</p></h3>
+<ul>
+<li>&#x601D;&#x8DEF;<blockquote>
+<p>&#x9690;&#x85CF;&#x539F;&#x751F;&#x6837;&#x5F0F;
+&#x83B7;&#x53D6;&#x80F6;&#x56CA;&#x6309;&#x94AE;&#x3001;&#x72B6;&#x6001;&#x680F;&#x76F8;&#x5173;&#x6570;&#x636E;&#x4EE5;&#x4F9B;&#x540E;&#x7EED;&#x8BA1;&#x7B97;
+&#x6839;&#x636E;&#x4E0D;&#x540C;&#x673A;&#x578B;&#x8BA1;&#x7B97;&#x51FA;&#x8BE5;&#x673A;&#x578B;&#x7684;&#x5BFC;&#x822A;&#x680F;&#x9AD8;&#x5EA6;&#xFF0C;&#x8FDB;&#x884C;&#x9002;&#x914D;
+&#x7F16;&#x5199;&#x65B0;&#x7684;&#x5BFC;&#x822A;&#x680F;
+&#x5F15;&#x7528;&#x5230;&#x9875;&#x9762;</p>
+</blockquote>
+</li>
+</ul>
+<p>&#x53C2;&#x8003;<a href="https://zhuanlan.zhihu.com/p/117244248" target="_blank">&#x8FD9;&#x91CC;</a></p>
+<h3 id="&#x2605;&#x2605;-&#x8BF4;&#x8BF4;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;wxif&#x548C;hidden&#x7684;&#x533A;&#x522B;"><a name="&#x2605;&#x2605;-&#x8BF4;&#x8BF4;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;wxif&#x548C;hidden&#x7684;&#x533A;&#x522B;" class="anchor-navigation-ex-anchor" href="#&#x2605;&#x2605;-&#x8BF4;&#x8BF4;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;wxif&#x548C;hidden&#x7684;&#x533A;&#x522B;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x2605;&#x2605;-&#x8BF4;&#x8BF4;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;wxif&#x548C;hidden&#x7684;&#x533A;&#x522B;" class="plugin-anchor" href="#&#x2605;&#x2605;-&#x8BF4;&#x8BF4;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;wxif&#x548C;hidden&#x7684;&#x533A;&#x522B;"><i class="fa fa-link" aria-hidden="true"></i></a><p id="weapp-25">&#x2605;&#x2605; &#x8BF4;&#x8BF4;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;wx:if&#x548C;hidden&#x7684;&#x533A;&#x522B;</p></h3>
+<blockquote>
+<p>&#x76F8;&#x540C;&#x70B9;&#xFF1A;</p>
+</blockquote>
+<p>wx:if &#x4E0E; hidden &#x90FD;&#x7528;&#x6765;&#x63A7;&#x5236;&#x5C0F;&#x7A0B;&#x5E8F;&#x5143;&#x7D20;&#x7684;&#x663E;&#x793A;</p>
+<blockquote>
+<p>&#x4E0D;&#x540C;&#x70B9;</p>
+</blockquote>
+<p>wx:if&#xFF1A;</p>
+<ul>
+<li>1&#x3001;&#x6761;&#x4EF6;&#x4E3A; true &#x65F6;&#x663E;&#x793A;</li>
+<li>2&#x3001;&#x5F53;&#x5143;&#x7D20;&#x663E;&#x793A;&#x65F6;&#x6E32;&#x67D3;</li>
+<li>3&#x3001;&#x5143;&#x7D20;&#x53D8;&#x4E3A;&#x4E0D;&#x663E;&#x793A;&#x65F6;&#x9500;&#x6BC1;&#x5143;&#x7D20;</li>
+</ul>
+<p>hidden&#xFF1A;</p>
+<ul>
+<li>1&#x3001;&#x6761;&#x4EF6;&#x4E3A; false &#x65F6;&#x663E;&#x793A;</li>
+<li>2&#x3001;&#x5F53;&#x5143;&#x7D20;&#x663E;&#x793A;&#x65F6;&#x6E32;&#x67D3;</li>
+<li>3&#x3001;&#x5143;&#x7D20;&#x53D8;&#x4E3A;&#x4E0D;&#x663E;&#x793A;&#x65F6;&#x4FDD;&#x7559;&#x5143;&#x7D20;</li>
+<li>4&#x3001;&#x76F8;&#x5F53;&#x4E8E;&#x4F7F;&#x7528;&#x4E86;dispaly</li>
+</ul>
+<p>&#x603B;&#x7ED3;&#xFF1A;
+1&#x3001;&#x5F53;&#x5143;&#x7D20;&#x9891;&#x7E41;&#x5207;&#x6362;&#x662F;&#x5426;&#x663E;&#x793A;&#x65F6;&#x4F7F;&#x7528; hidden &#xFF0C;&#x56E0;&#x4E3A; wx:if &#x4F1A;&#x9891;&#x7E41;&#x5730;&#x9500;&#x6BC1;&#x6E32;&#x67D3;&#x5143;&#x7D20;
+2&#x3001;&#x5F53;&#x5143;&#x7D20;&#x4E0D;&#x9891;&#x7E41;&#x5207;&#x6362;&#x662F;&#x5426;&#x663E;&#x793A;&#x65F6;&#x4F7F;&#x7528; wx:if&#xFF0C;&#x56E0;&#x4E3A; wx:if &#x4F1A;&#x907F;&#x514D;&#x9875;&#x9762;&#x52A0;&#x8F7D;&#x65F6;&#x6E32;&#x67D3;&#x8FC7;&#x591A;&#xFF0C;&#x5BFC;&#x81F4;&#x9875;&#x9762;&#x52A0;&#x8F7D;&#x7F13;&#x6162;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../node/" class="navigation navigation-prev " aria-label="Previous page: Node.js">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../browser/" class="navigation navigation-next " aria-label="Next page: 浏览器">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"小程序","level":"1.7","depth":1,"next":{"title":"浏览器","level":"1.8","depth":1,"path":"browser/index.md","ref":"./browser/index.md","articles":[]},"previous":{"title":"Node.js","level":"1.6","depth":1,"path":"node/index.md","ref":"./node/index.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","expandable-chapters-small","anchors","sharing-plus","anchor-navigation-ex","favicon","hide-element","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"livereload":{},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"favicon":{"shortcut":"./source/images/favicon.jpg","bookmark":"./source/images/favicon.jpg","appleTouch":"./source/images/apple-touch-icon.jpg","appleTouchMore":{"120x120":"./source/images/apple-touch-icon.jpg","180x180":"./source/images/apple-touch-icon.jpg"}},"expandable-chapters-small":{},"sharing":{"qq":false,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"大前端面试小册-企业面试真题","language":"zh-hans","links":{},"gitbook":"3.2.3"},"file":{"path":"weapp/index.md","mtime":"2022-07-05T12:15:45.892Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-07-05T12:52:30.583Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
